@@ -1,0 +1,160 @@
+/*  External style sheet for ourBand.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  12/2/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    ourBand.html web page
+*/
+
+body {
+	background-image: url(../images/castleHall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#wrapper {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: .3em ridge teal;
+    color: #91869e;
+    text-shadow: 1px 2px 3px black;
+}
+
+header h2 {
+    color: #d69500;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 2em;
+	margin-bottom: 0em;
+    text-shadow: 2px 3px 4px maroon;
+}
+header h1 {
+    color: #840000;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 5em;
+	margin-bottom: 0em;
+	margin-top: 0em;
+    text-shadow: 3px 4px 5px #42366b;
+}
+
+header h3 {
+    color: #0e7c6a;
+    font-family: "Eagle Lake", Garamond, serif;
+    font-size: 2em;
+    margin-top: 0em;
+    text-align: center;
+    text-shadow: 3px 4px 5px #0c332c;
+}
+
+figure#photoContainerRight {
+    /* background-color: teal; /* TEMP FOR TESTING */
+    float: right;
+    width: 40em;
+}
+
+img {
+    border: .4em ridge #5e1818;
+    width: 100%;
+}
+
+span.vocabulary {
+    color: #d69500;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px maroon;
+    transition-duration: .3s;
+    transition-property: all;
+}
+
+span.vocabulary:hover{
+    color: #f7db7e;
+}
+
+article.eggcornConsortInfo p:first-letter {
+    color: #d68e00;
+    font-size: 3em;
+    text-shadow: 3px 4px 5px #d64700;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+figure#photoContainerLeft {
+    /* background-color: teal; /*TEMP FOR TESTING */
+    float: left;
+    width: 40em;
+}
+
+hr {
+    border: .1em ridge #d68e00;
+    box-shadow: 1px 1px #d64700;
+}
+
+article#tinyMenu {
+    color: teal;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    text-align: left;
+}
+
+article#tinyMenu a:link {
+    color: purple;
+    text-decoration: none;
+    transition-duration: .3s;
+    transition-property: all;
+}
+
+article#tinyMenu a:visited {
+    color: #604f75;
+}
+
+article#tinyMenu a:focus {
+    color: #8239db;
+    text-shadow: 1px 1px 2px #31194f;
+}
+
+article#tinyMenu a:hover {
+    color: #8239db;
+    text-shadow: 1px 1px 2px #31194f;
+}
+
+footer {
+    margin-top: 3em;
+    text-align: center;
+}
+
+nav#footerNav a:link {
+    background-color: #3d0b0b;
+    border: .5em ridge #085259;
+    border-radius: 1em;
+    color: #d68e00;
+    padding: .5em;
+    text-decoration: none;
+    text-shadow: 2px 3px 4px black;
+    transition-duration: .3s;
+    transition-property: all;
+}
+
+nav#footerNav a:visited {
+    background-color: #472323;
+    border: .3em ridge #4a6865;
+    color: #d18802;
+}
+
+nav#footerNav a:focus {
+    background-color: #700808;
+    border: .3em inset teal;
+    box-shadow: 3px 4px 5px #3d3a3a;
+    color: gold;
+}
+
+nav#footerNav a:hover {
+    background-color: #700808;
+    border: .3em inset teal;
+    box-shadow: 3px 4px 5px #3d3a3a;
+    color: gold;
+}
+
+
+

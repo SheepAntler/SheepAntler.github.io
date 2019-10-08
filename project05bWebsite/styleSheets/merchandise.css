@@ -1,0 +1,145 @@
+/*  External style sheet for merchandise.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  12/17/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    merchandise.html web page
+*/
+
+body {
+	background-image: url(../images/greenMountains.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#wrapper {
+	background-color: rgba(1, 173, 21, 0.3);
+	border: .3em ridge #053d09;
+}
+
+header h1 {
+	background-color: rgba(5, 48, 10, 0.7);
+	border: .1em ridge #053d09;
+	border-radius: 2em;
+	color: #61bf7d;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 4em;
+	padding: .5em;
+	text-shadow: 3px 4px 5px black;
+}
+
+header h2 {
+	font-family: Garamond, serif;
+	font-size: 2em;
+}
+
+article#introParagraphs {
+	background-color: rgba(5, 48, 10, 0.7);
+	border: .2em ridge #5b995f;
+	border-radius: 1em;
+	color: #86ce8c;
+	margin-bottom: 2em;
+	padding: 1em;
+	text-shadow: 2px 3px 4px black;
+}
+
+article#introParagraphs a:link{
+	color: #a160c1;
+	font-weight: bold;
+	text-decoration: none;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+article#introParagraphs a:visited {
+	color: #634d6d;
+}
+
+article#introParagraphs a:focus {
+	color: #c691e0;
+}
+
+article#introParagraphs a:hover {
+	color: #c691e0;
+}
+
+table {
+	background-color: rgba(5, 48, 10, 0.7);
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: .3em ridge #053d09;
+	color: #5ed666;
+	font-size: 2em;
+	padding: .5em;
+	text-shadow: 2px 3px 4px black;
+}
+
+td {
+	border: .3em ridge #5b995f;
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+td img {
+	border: .2em ridge grey;
+	width: 100%;
+}
+
+td {
+	color: #b7f4bb;
+	text-shadow: 2px 3px 4px black;
+}
+
+td.price {
+	color: #48f954;
+	text-align: center;
+}
+
+footer {
+	margin-top: 3em;
+	text-align: center;
+}
+
+nav#footerNav a:link {
+	background-color: #02914c;
+	border: .3em ridge #04331c;
+	border-radius: 2em;
+	color: #a0e8c5;
+	font-size: 2em;
+	padding: .5em;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+nav#footerNav a:visited {
+	background-color: #294f3c;
+	border: .2em outset #022b17;
+	color: #80a392;
+}
+
+nav#footerNav a:focus {
+	background-color: #2faf71;
+	border: .2em outset #134c31;
+	box-shadow: 4px 5px 6px black;
+	color: #ceffe7;
+}
+
+nav#footerNav a:hover {
+	background-color: #2faf71;
+	border: .2em outset #134c31;
+	box-shadow: 4px 5px 6px black;
+	color: #ceffe7;
+}
+
+p#date {
+	color: #b7f4bb;
+	text-shadow: 2px 3px 4px black;
+}

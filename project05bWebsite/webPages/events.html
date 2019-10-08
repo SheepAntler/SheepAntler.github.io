@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  Elspeth Stalter-Clouse
+         Date:    12/11/2018
+  -->
+  <meta charset="UTF-8" />
+  <title>Upcoming Events</title>
+  <link href="../styleSheets/masterStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/events.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/masterRWD.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Cinzel+Decorative" rel="stylesheet">
+
+  <script src="../javaScriptFiles/masterJavaScript.js"></script>
+  <script src="../javaScriptFiles/events.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <header>
+    <script>
+      placeSeasonalHeader();
+    </script>
+  </header>
+
+  <section>
+
+    <article>
+      <table>
+        <tr> 
+          <th>Venue Photo</th>
+          <th>Venue Name</th>
+          <th>City</th>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td class="photo"><img alt="Photograph of Hampton Court" src="../images/hampton.jpg" /></td>
+          <td>Hampton Court</td>
+          <td>Hope Under Dinmore, Herefordshire</td>
+          <td>
+            <script>
+              changeHamptonDate();
+            </script>
+          </td>
+          <td>7:30 PM</td>
+        </tr>
+        <tr>
+          <td class="photo"><img alt="Photograph of Dover Castle" src="../images/dover.jpg" /></td>
+          <td>Dover Castle</td>
+          <td>Dover, Kent</td>
+          <td>
+            <script>
+              changeDoverDate();
+            </script>
+          </td>
+          <td>8:00 PM</td>
+        </tr>
+        <tr>
+          <td class="photo"><img alt="Photograph of Warwick Castle" src="../images/warwick.jpg" /></td>
+          <td>Warwick Castle</td>
+          <td>Warwick, Warwickshire</td>
+          <td>
+            <script>
+              changeWarwickDate();
+            </script>
+          </td>
+          <td>7:30 PM</td>
+        </tr>
+        <tr>
+          <td class="photo"><img alt="Photograph of Bodiam Castle" src="../images/bodiam2.jpg" /></td>
+          <td>Bodiam Castle</td>
+          <td>Bodiam, Robertsbridge</td>
+          <td>
+            <script>
+              changeBodiamDate();
+            </script>
+          </td>
+          <td>9:00 PM</td>
+        </tr>
+      </table>
+    </article>
+
+    <nav id="ticketButton">
+    	<a href="http://www.ticketmaster.com" target="ticketMaster">Get Tickets</a>
+    </nav>
+
+    <article id="tinyMenu">
+
+    <hr />
+    <hr />
+
+      <ul>
+      	<li>Pick up some Merch before the Show. Check out our <a href="merchandise.html">Shop</a>.</li>
+      	<li>Lady Mondegreen's concerts wouldn't be half as fantastic without her Patrons. <a href="ourVolunteers.html">Learn More</a>.</li>
+      	<li>Want to see your castle or manor on this list? <a href="newFriend.html">Become an Eggcorn</a>.</li>
+      </ul>
+
+    <hr />
+    <hr />
+
+    </article>
+
+  </section>
+
+  <footer>
+
+    <nav id="footerNav">
+      <a href="aboutLadyMondegreen.html">Return to Lady Mondegreen's Page</a><br /><br /><br />
+      <a href="index.html">Home</a>
+    </nav>
+    <p id="date">
+      <script>
+          displayRenderedDateTime();
+      </script>
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
+
