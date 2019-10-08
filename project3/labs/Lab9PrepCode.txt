@@ -1,0 +1,40 @@
+UNIQUE WORD LIST APPLICATION: PREP CODE
+
+--------------------------------------------------------------------------------
+
+CREATE a new instance of the InputHelper class
+
+DECLARE a variable to hold user entered words
+
+DECLARE an ArrayList to hold the full list of user entered words
+
+--------------------------------------------------------------------------------
+
+DECLARE get/set methods for the user entry variable (no need to write these out)
+
+DECLARE a method called run() that collects user entries and adds them to the
+    ArrayList.
+
+DECLARE a method called end() that removes repeat words from the ArrayList and
+    outputs the resulting list.
+
+--------------------------------------------------------------------------------
+
+METHOD: void run()
+
+    REPEAT
+        ASK user to enter a word
+        STORE that user's word in the appropriate variable
+        IF that word is not quit, add it to the ArrayList
+        ELSE IF that word is quit...
+    END REPEAT
+
+--------------------------------------------------------------------------------
+
+METHOD: void end()
+
+    CREATE a set to find the unique words in the ArrayList
+
+    OUTPUT the resulting list of words
+
+--------------------------------------------------------------------------------

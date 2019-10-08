@@ -1,0 +1,28 @@
+LAWN-A-THON APPLICATION: CLASSES
+
+a. The CreateClients class will hold information entered by the user
+    - It will create an ArrayList to hold clients
+    - It will ask the user to enter:
+        - their name
+        - their lawn length
+        - their lawn width
+        - how many payments they want to make:
+            - one
+            - two
+            - twenty-two
+    - It will take this information and set it into a list of clients
+    - It will hold a String containing each client's information
+      that will ultimately be displayed in the terminal window
+
+b. The ProcessClients class is in charge of calculations and output
+    - It will have access to the client list, and will display the information
+      about each client in the terminal window
+    - It will calculate the Summary Report:
+        - counting all the clients
+        - calculating the total square yards to mow
+        - calculating the total revenue for the summer
+        - It will output this information
+    - It will calculate season and service charges for each client:
+        - It will output this information
+
+c. The ProcessClientsLauncher class will create an instance of the ProcessClients class and start it running

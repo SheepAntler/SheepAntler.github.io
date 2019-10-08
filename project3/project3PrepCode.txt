@@ -1,0 +1,187 @@
+================================================================================
+
+LAWN-A-THON PREPCODE: Client Class
+
+--------------------------------------------------------------------------------
+
+DECLARE constants:
+    static final int SEASON_LENGTH = 22
+    static final int LOWER_LAWN_BOUNDARY = 500
+    static final int UPPER_LAWN_BOUNDARY = 800
+    static final int SMALL_LAWN_RATE = 25
+    static final int MEDIUM_LAWN_RATE = 35
+    static final int LARGE_LAWN_RATE = 50
+    static final int TWO_SERVICE_CHARGE = 5
+    static final int TWENTY_TWO_SERVICE_CHARGE = 3
+
+DECLARE a String to hold the client's full name
+
+DECLARE a double to hold the client's lawn length
+
+DECLARE a double to hold the client's lawn width
+
+DECLARE an int to hold the client's preferred payment type (1, 2, 22)
+
+--------------------------------------------------------------------------------
+
+DECLARE a method called calculateLawnArea() that has no parameters. It will
+    return a double that is the area of each client's lawn.
+
+DECLARE a method called calculateSeasonCharge() that has no parameters. It will
+    return a double that is the client's total season charge
+
+DECLARE a method called calculateServiceCharge() that has no parameters. It will
+    return a double that is the client's total season charge plus their
+    service charge based on the number of payments they want to make
+
+--------------------------------------------------------------------------------
+
+METHOD double calculateLawnArea()
+    RETURN lawnLength * lawnWidth
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD double calculateSeasonCharge()
+    IF the lawn area is less than 500 sq. yds
+        RETURN lawnArea * 25
+    ELSE IF the lawn area is between 500 and 800 sq. yds
+        RETURN lawnArea * 35
+    ELSE the lawn area is 800 sq. yds or more
+        RETURN lawnArea * 50
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD double calculateServiceCharge()
+    IF the client wants to make 2 payments
+        RETURN their (season charge/2) + 5
+    ELSE IF the client wants to make 22 payments
+        RETURN their (season charge/22) + 3
+    ELSE
+        RETURN their service charge
+END METHOD
+
+================================================================================
+
+================================================================================
+
+LAWN-A-THON PREPCODE: ProcessReports Class
+
+--------------------------------------------------------------------------------
+
+DECLARE an instance variable for an InputHelper object
+
+DECLARE an instance variable for an ArrayList that will hold all the
+    entered Client information
+
+--------------------------------------------------------------------------------
+
+DECLARE a method called listClients() that will ask each client for information,
+    create objects for them and store them in the ArrayList
+
+DECLARE a method called displayClientList() that will loop through the ArrayList
+    of clients and output the personal/payment information of each one
+
+DECLARE a method called calculateTotalSquareYards() that will loop through the
+    ArrayList of clients and add the square yards of each of their lawns
+    together in the corresponding variable
+
+DECLARE a method called calculateTotalRevenue() that will loop through the
+    ArrayList of clients and add all of their total season (+ service!) costs
+    together in the corresponding variable
+
+DECLARE a method called displayTotals() that will output the total number of
+    clients (ArrayList.size), the total number of square yards to mow and the
+    total expected revenue for the summer
+
+DECLARE a method called run() that will call these methods, in this order:
+    - listClients()
+    - displayClientList()
+    - calculateTotalSquareYards()
+    - calculateTotalRevenue()
+    - displayTotals()
+
+--------------------------------------------------------------------------------
+
+METHOD void listClients()
+    LOOP
+        ASK user to enter the client's name
+        STORE this information in a local variable
+        ASK user to enter the client's lawn's length
+        CONVERT the entered string to an int
+        STORE the resulting int in a local variable
+        ASK user to enter the client's lawn's width
+        CONVERT the entered string to an int
+        STORE the resulting int in a local variable
+        ASK user to enter the client's payment type: 1, 2, or 22 payments
+        CONVERT the entered string to an int
+        STORE the resulting int in a local variable
+        CREATE a new instance of the Client class and populate it with
+            the information you just gathered
+        ADD the new Client object to the ArrayList of clients
+        ASK the user if they have any more clients to enter
+        IF no, end loop
+    END LOOP
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD void displayClientList()
+    LOOP through the ArrayList of clients
+        OUTPUT each client's information
+    END LOOP
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD double calculateTotalSquareYards()
+    LOOP through the ArrayList of clients
+        ADD the square yards of each client's yard together
+        RETURN totalSquareYards
+    END LOOP
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD void calculateTotalSeasonRevenue()
+    LOOP through the ArrayList of clients
+        ADD the total amount each client will pay during the season together
+        RETURN totalRevenue
+    END LOOP
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD void displayTotals()
+    DISPLAY the total number of clients
+    DISPLAY the total square yards Lawn-A-Thon needs to mow this season
+    DISPLAY the total amount of revenue Lawn-A-Thon can expect this season
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD void run()
+    CALL listClients()
+    CALL displayClientList()
+    CALL calculateTotalSquareYards()
+    CALL calculateTotalRevenue()
+    CALL displayTotals()
+END METHOD
+
+================================================================================
+================================================================================
+
+LAWN-A-THON PREP CODE: lawnAThonLauncher
+
+--------------------------------------------------------------------------------
+
+DECLARE the main method
+
+DECLARE a new instance of the ProcessReports class
+
+--------------------------------------------------------------------------------
+
+CALL the run() method on the ProcessReports object
+
+================================================================================

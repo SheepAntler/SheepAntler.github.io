@@ -1,0 +1,14 @@
+CLASS IDENTIFICATION
+
+1.  The **`Dog`** class will hold information about individual dogs.
+    It will perform any calculations that pertain to a single dog.
+    
+2.  The **`Kennel`** class will hold all the instances of the Dog class.
+    It will get information about each dog from the user. Once the user is
+    finished entering data, the class will output reports to the screen.
+
+3.  The **`InputHelper`** class will prompt the user for input and
+    return the entered data to the calling method.
+    
+4.  The **`KennelLauncher`** class will create an instance of the Kennel
+    class and start it running.

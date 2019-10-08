@@ -1,0 +1,55 @@
+PREPCODE for the GuessMyNumber class:
+
+DECLARE an int variable to hold a randomly-generated number for a user to guess
+
+DECLARE an int variable to hold the user's guesses
+
+--------------------------------------------------------------------------------
+
+DECLARE a method named generateNumber() to randomly select a number
+    between 1 and 100 and return this number to its calling method
+
+DECLARE a method named processUserGuess() that will use the InputHelper to
+    get guesses from the user and compare those guesses to the random number
+
+DECLARE a method named run() that calls these methods in this order:
+    1) generateNumber()
+    2) processUserGuess()
+
+--------------------------------------------------------------------------------
+
+METHOD: void generateNumber()
+
+    SET the random int instance variable to a random number between 1 and 100
+
+    END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD: void processUserGuess()
+
+    REPEAT
+        ASK user to enter a number
+        CONVERT the resulting string to an int
+        STORE the user's guess in the corresponding instance variable
+        IF the user's guess is too high, display an appropriate message
+        ELSE IF the user's guess is too low, display an appropriate message
+        ELSE the user's guess is correct;
+            display an appropriate message; end loop
+    END REPEAT
+
+    OUTPUT the user's winning guess
+    OUTPUT the number of guesses it took them to win
+
+    END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD: void run()
+
+    CALL the generateNumber() method
+    CALL the processUserGuess() method
+
+END METHOD
+
+--------------------------------------------------------------------------------

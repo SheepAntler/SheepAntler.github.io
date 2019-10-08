@@ -1,0 +1,43 @@
+APPLICATION ONE: "Math-O-Matic"
+
+a. Math-O-Matic STARTS
+    - a list is created to hold two user-entered numbers at a time
+b. Processing begins--keep outputting results until the user enters 0
+    - ask the user to enter a number
+    - ask the user to enter another number
+    - if neither number was 0:
+        - calculate sum
+        - calculate difference
+        - calculate product
+        - calculate quotient
+        - output the results
+    - if one of the numbers WAS 0...
+c. Math-O-Matic ENDS
+    - display a message telling the user they have exited the program
+
+
+
+APPLICATION TWO: "Guess My Number"
+
+a. Guess My Number STARTS
+    - generate a random number for the user to guess
+b. Guessing begins--keep asking the user to enter numbers until they guess correctly
+    - prompt the user for a numeric guess
+    - if it is too high, output a message that tells the user it was too high
+    - if it is too low, output a message that tells the user it was too low
+    - if it is correct...
+c. Guess My Number ENDS
+    - display a message bidding the user a fond farewell
+
+
+
+APPLICTAION THREE: "Paint-By-Quote"
+
+a. Paint-By-Quote STARTS
+    - load a list of colors that each have quotes assigned to them
+b. Color entry starts--ask the user to enter a color
+    - if the user entry matches a color in the list, output the corresponding quote
+    - if the user entry does NOT match a color in the list, ask the user to try again and enter a valid color
+c. Paint-By-Quote ENDS
+    - when the user stops entering colors, and closes the program?
+(there is no truly definitive ending to this program in my view; it seems like it could go on forever, until the user chooses to leave!)

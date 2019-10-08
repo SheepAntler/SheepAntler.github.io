@@ -1,0 +1,12 @@
+LAWN-A-THON APPLICATION: HIGH-LEVEL DESIGN
+
+a. Lawn-A-Thon starts
+    - a list is created to hold new clients
+b. Client Entry Begins
+    i. prompt clients for information
+    ii. create a client object an set the entered information into it
+    iii. store the client object in the client list
+c. Lawn-A-Thon ends
+    i. output each client's information
+    ii. output a client summary report that describes all entered clients
+    iii. output the season and service charge calculations for each client

@@ -1,0 +1,115 @@
+PREPCODE for the Dog Class:
+
+DECLARE a String variable to hold the name of the dog.
+
+DECLARE a String variable to hold the name of the owner of the dog.
+
+DECLARE an int variable to hold the weight of the dog in pounds.
+
+--------------------------------------------------------------------------------
+
+DECLARE a method named calculateFoodNeeded() that has no parameters. It will
+        return an int that is the amount of food needed per day for this dog.
+
+--------------------------------------------------------------------------------
+
+METHOD: int calculateFoodNeeded()
+    IF the dog weighs less than 50 pounds
+        RETURN 1
+    ELSE
+        RETURN 2
+    END IF
+END METHOD
+
+================================================================================
+
+PREPCODE for the Kennel class:
+
+DECLARE an instance variable for an InputHelper object.
+
+DECLARE an instance variable for an ArrayList that will hold all the entered
+        Dog objects.
+
+DECLARE an int variable that will hold the total food needs for the week.
+
+--------------------------------------------------------------------------------
+
+DECLARE a method named dogDataEntry() that will use the InputHelper object to
+        get all the data about each dog, create the dog objects and store
+        them in the ArrayList.
+
+DECLARE a method named displayDogs() that will loop through the ArrayList of
+        of Dog objects and call the display method for each one.
+
+DECLARE a method named calculateTotalFoodWeight() that will loop through the
+        ArrayList of Dog object and accumulate the food needs for each one and
+        store it in the total food variable.
+
+DECLARE a method named displayTotals() that will output the total food needed.
+
+DECLARE a method named run() that calls these methods in this order:
+        dogDataEntry(), displayDogs(), calculateTotalFoodWeight(),
+        displayTotals()
+
+--------------------------------------------------------------------------------
+
+METHOD: void dogDataEntry()
+
+    CREATE a new ArrayList object and assign it to the instance variable
+    CREATE a new InputHelper object and assign it to the instance variable
+
+    REPEAT
+        ASK user to enter the name of a Dog
+        STORE the entered data in a local variable
+        ASK user to enter the name of the Dog's owner
+        STORE the entered data in a local variable
+        ASK user to enter the weight of the Dog
+        CONVERT the entered string to an int
+        STORE the converted value in a local variable
+        CREATE a new instance of the Dog class
+            and populate it with local variables
+        ADD the new Dog object to the ArrayList object
+        ASK user if they want to enter a new Dog
+        IF no then end loop
+    END REPEAT
+
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD: void displayDogs()
+
+    REPEAT through the ArrayList of Dog objects
+        DISPLAY the current Dog object
+    END
+
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD: void calculateTotalFoodWeight()
+
+    REPEAT through the ArrayList of Dog objects
+        ADD the current dog food needs to the total food needs times 7
+    END
+
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD: void displayTotals()
+
+    OUTPUT the total food needs
+
+END METHOD
+
+--------------------------------------------------------------------------------
+
+METHOD: void run()
+
+    CALL the dogDataEntry() method
+    CALL the displayDogs() method
+    CALL the calculateTotalFoodWeight() method
+    CALL the displayTotals() method
+
+END METHOD

@@ -1,0 +1,51 @@
+APPLICATION ONE: "Math-O-Matic"
+
+a) The NumberInput class will hold the numbers entered by the user.
+    - It will ask the user to enter a number
+    - It will know what the user's entry was
+    - It will check to make sure it was not a 0
+    - It will return the number to its calling method
+
+b) The DoSomeMath class will run calculations with the numbers entered by the user.
+    - It will hold instances of the Number class
+    - It will know if the user entered a 0 or not
+    - It will know what the user's entries were
+    - It will calculate the sum
+    - It will calculate the difference
+    - It will calculate the product
+    - It will calculate the quotient
+    - It will output all of the results...
+    - ...UNLESS one of the numbers it received was a 0, in which case it will output a farewell message instead of results
+
+c) The MathOMaticLauncher class will create an instance of the DoSomeMath class and start it running.
+
+
+
+APPLICATION TWO: "Guess My Number"
+
+a) The GuessMyNumber class will generate a number and process user guesses
+    - It will generate a random number for the user to guess
+    - Knowing this number, it will:
+        - prompt the user to enter a number
+        - output appropriate messages if the user's guess is:
+            - too high
+            - too low
+            - just right...at which time the program will end
+
+b) The GuessMyNumberLauncher class will create an instance of the GuessMyNumber class and start it running.
+
+
+
+APPLICTAION THREE: "Paint-By-Quote"
+
+a) The ColorsList class will load a file that contains a list of colors with quotes linked to each one.
+    - It will know the contents of that file
+    - It will load the file whenever the program is opened
+
+b) The ColorEntry class will accept input from the user
+    - It will prompt the user for a color
+    - It will compare that color to the list of colors in the file loaded by the ColorsList class
+    - If it received a valid color, it will output the corresponding quote
+    - If it received an invalid color, it will output an error message prompting the user to try again
+
+c) The ColorEntryLauncher will create an instance of the ColorEntry class and start it running.

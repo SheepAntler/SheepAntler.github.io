@@ -1,0 +1,13 @@
+UNIQUE WORD LIST APPLICATION: DESIGN
+
+a. UniqueWordList STARTS
+    - a variable is created to hold user entries
+    - an ArrayList is created to hold the list of user entries
+b. PROCESSING - keep asking for user entries until the user enters "quit"
+    - ask the user for a word
+    - if the word is NOT "quit":
+        - add it to the ArrayList
+    - if the word WAS "quit"...
+c. UniqueWordList ENDS
+    - the array list is processed to exclude any repeat words
+    - the resulting unique word list is output to the terminal window
