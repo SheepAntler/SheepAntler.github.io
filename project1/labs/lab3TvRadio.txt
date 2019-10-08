@@ -1,0 +1,48 @@
+------------------------
+           :TV:
+------------------------
+Instance Variables
+------------------------
+- powerStatus (on or off?)
+- screenSize
+- screenBrightness
+- volumeLevel
+- maxVolume
+- minVolume
+- closedCaptioningStatus (on or off?)
+- currentChannel
+- availableChannels						
+- inputType (HDMI, DVD player?)				 
+- antennaSignal 				     		------------------------
+------------------------						 :SUPERCLASS:
+       Methods						------------------------				
+------------------------						Instance Variables
+- powerOn						------------------------						
+- powerOff						- powerStatus						
+- changeChannel						- volumeLevel						
+- changeVolume						- maxVolume
+- closedCaptionsOn						- minVolume
+- closedCaptionsOff						- currentChannel/currentStation
+- changeInput						- availableChannels/availableStations						
+====================================			- inputType		 	
+------------------------						- antennaSignal
+         :Radio:						------------------------
+------------------------						        Methods
+Instance Variables						------------------------
+------------------------						- powerOn
+- powerStatus (on or off?)					- powerOff					
+- volumeLevel						- changeChannel/changeStation					
+- maxVolume						- changeVolume							
+- minVolume						- changeInput							
+- currentStation											
+- availableStations						
+- antennaSignal											
+- inputType (AUX, Bluetooth?)
+------------------------
+       Methods
+------------------------
+- powerOn
+- powerOff
+- changeStation
+- changeVolume
+- changeInput

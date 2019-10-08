@@ -1,0 +1,49 @@
+WHO AM I? (page 45)
+-------------------
+
+After each line identify who it is from this list.
+The first one is already done!:
+    -Class
+    -Method
+    -Object
+    -Instance variables.
+
+I am compiled from a .java file.
+    -Class
+
+My instance variable values can be different from my buddy's values.
+    - Object
+
+I behave like a template.
+    - Class
+
+I like to do stuff.
+    - Method (but I suppose the object is technically DOING the doing via its methods)
+
+I can have many methods.
+    - Object (and/or class, since both objects and methods live in classes)
+
+I represent 'state'.
+    - Instance variables
+
+I have behaviors.
+    - Object (and/or class, since both objects and methods live in classes)
+
+I am located in objects.
+    - Instance variables
+    - Methods
+
+I live on the heap.
+    - Object
+
+I am used to create object instances.
+    - Class
+
+My state can change.
+    - Object (state changing = Instance Variables changing)
+
+I declare methods.
+    - Class
+
+I can change at runtime.
+    - Instance variables (and if they're changing, their related objects are changing!)
