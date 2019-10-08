@@ -1,0 +1,44 @@
+body {
+    background-image: url(images/allStoriesBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family:"American Typewriter";
+    src: url("americanTypewriterFont.ttf") format("truetype");
+  }
+
+div {
+    font-family: "American Typewriter", serif;
+    font-size: 1em;
+    text-align: left;
+    margin: 1em 1em 3em 1em;
+}
+
+.inspired {
+    margin-bottom: 2em;
+    margin-top: 0em;
+}
+
+.writeButton {
+    background-color: #57222b;
+    border: .12em ridge #210811;
+    border-radius: .5em;
+    color: #f5e9d5;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    text-decoration: none;
+    text-shadow: 2px 3px 4px black;
+    transition-duration: .3s;
+    transition-property: all;  
+}
+
+.writeButton:hover, .writeButton:focus {
+    background-color: #8a6071;
+    box-shadow: 2px 3px 4px black;
+    color: white;
+}
