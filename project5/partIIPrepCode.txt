@@ -1,0 +1,68 @@
+================================================================================
+CLASS - CustomerOrder - PREP CODE
+================================================================================
+================================================================================
+INSTANCE VARIABLE DECLARATION
+
+String customerName
+int customerNumber
+String productName
+int quantityOrdered
+double unitPrice
+================================================================================
+METHODS
+
+CONSTRUCTORS:
+public CustomerOrder(String name, int number, String product, int quantity, double price)
+- constructor with parameters
+
+public double calculateTotalOrderPrice()
+- calculates the total price for an order
+- return unitPrice * quantityOrdered
+
+public String toString()
+- return String with all the order data for each order
+================================================================================
+
+================================================================================
+CLASS - ProcessShipping extends CustomerOrder - PREP CODE
+================================================================================
+================================================================================
+INSTANCE VARIABLE DECLARATION
+
+boolean shippingIndicator
+================================================================================
+METHODS
+
+CONSTRUCTORS
+public ProcessShipping(String name, int number, String product, int quantity, double price, boolean shipping)
+- call super(send it data)
+- set shippingIndicator (this.shippingIndicator)
+
+public double calculateTotalOrderPrice()
+- OVERRIDES SUPERCLASS METHOD
+- super.calculateTotalPrice + appropriate shipping cost
+================================================================================
+
+================================================================================
+CLASS - ProcessOrders - PREP CODE
+================================================================================
+================================================================================
+INSTANCE VARIABLE DECLARATION
+
+ArrayList<CustomerOrder>
+================================================================================
+METHODS
+
+public void run()
+- calls other methods (below)
+
+public void createOrders()
+- create some CustomerOrder objects
+- create some ProcessShipping objects
+- pass them parameters
+
+public void displayOrders()
+- loop through the ArrayList
+- call each order's toString() method
+================================================================================

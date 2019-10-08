@@ -1,0 +1,9 @@
+Vehicle - superclass
+
+Car IS-A vehicle - subclass * => start(), HAS-A numberOfCylinders, get/set
+Truck - subclass
+Airplane IS-A vehicle - subclass * => start(), HAS-A numberOfEngines, get/set
+Bus - subclass
+
+interface - maintainable
+    determineMaintenanceCost(); 
