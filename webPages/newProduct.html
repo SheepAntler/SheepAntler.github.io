@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  Elspeth Stalter-Clouse
+         Date:    09/15/2018
+  -->
+  <title>Form to Add a New Product</title>
+  <meta charset="UTF-8" />
+  <link href="../styleSheets/masterStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/newProduct.css"
+        rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <header>
+    <h1>New Product Notification Form</h1>
+    <h2>For Use by Arte Del Mundo Artists Only</h2>
+  </header>
+
+  <section>
+
+      <article id="newProductInfo">
+          <p>Are you a member of Arte Del Mundo's family of artists? Do you have a new type of art that you would like to sell through our online community? Then you've come to the right place!
+             all of the information that you submit in the following form will be used by our staff to create a listing for your new product.</p>
+
+          <p>If, however, you are an artist who has not worked with us before, and you are hoping to sell your work through our site, we have a page for you, too. Before you are able to list any
+             new products here, you must fill out the <a href="newArtist.html">New Artist Form</a> and, if your membership is approved, our New Artist Intake team will assign you an artist ID number
+             and password. Thank you!</p>
+      </article>
+
+      <article>
+          <form name="newProduct" id="newProduct"
+                action="http://itins3.madisoncollege.edu/echo.php"
+                method="post">
+
+          <fieldset id="artistLogin">
+          <legend for="personalInfo">Artist Login:</legend>
+          <label for="artistId">Artist ID Number:</label>
+          <input type="text"
+                 name="artistId" id="artistId" class="textBox"
+                 maxlength="8" required="required"
+                 placeholder="Enter Your 8-Digit ID" />
+
+          <span class="smallSpacer"></span>
+
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" class="textBox"
+                 maxlength="15" required="required"/>
+
+          </fieldset>
+
+          <fieldset id="productInfo">
+          <legend for="productInfo">New Product Information</legend>
+          <label for="productPrice">Product Price:</label>
+          <input type="text"
+                 name="productPrice" id="productPrice" class="textBox"
+                 maxlength="7" required="required"
+                 placeholder="Enter Price in USD" />
+
+          <span class="smallSpacer"></span>
+
+          <label for="productCategory">Product Category:</label>
+          <select name="productCategory" id="productCategory" required="required">
+              <option value="DPA">Choose a Category for Your Product</option>
+              <option value="A1A1">Beadwork</option>
+              <option value="B2B2">Jewelry</option>
+              <option value="C3C3">Pottery</option>
+              <option value="D4D4">Carving</option>
+              <option value="E5E5">Wood Working</option>
+              <option value="F6F6">Mosaics</option>
+              <option value="G7G7">Needle Crafts</option>
+              <option value="H8H8">Paper</option>
+              <option value="I9I9">Origami</option>
+              <option value="J1J1">Paper Mache</option>
+              <option value="K2K2">Basketry</option>
+              <option value="L3L3">Woven Fabric</option>
+              <option value="M4M4">Woven Non-Fabric</option>
+              <option value="N5N5">Painting</option>
+              <option value="P6P6">Metal Working</option>
+              <option value="Q7Q7">Other</option></select>
+
+        <span class="smallSpacer"></span>
+
+        <fieldset id="productWeight">
+        <legend for="productWeight">Product Weight</legend>
+        <label for="productWeight">Approximate or Exact Weight:</label>
+        <input type="text"
+               name="productWeight" id="productWeight" class="textBox"
+               maxlength="6" required="required"
+               placeholder="Enter Integer Here"/>
+
+        <span class="smallSpacer"></span>
+
+        <label for="weightUnit">Units of Measure</label>
+        <span class="tinySpacer"></span>
+        <input type="radio" name="weightUnit" value="001" id="kilograms" checked="checked"/>
+        <label for="kilograms">Kilograms</label>
+
+        <span class="tinySpacer"></span>
+
+        <input type="radio" name="weightUnit" value="002" id="ounces" />
+        <label for="ounces">Ounces</label>
+
+        <span class="tinySpacer"></span>
+
+        <input type="radio" name="weightUnit" value="003" id="pounds" />
+        <label for="pounds">Pounds</label>
+
+      </fieldset>
+
+      <label for="organicPercentage">Organic Percentage:</label>
+      <input type="text"
+             name="organicPercentage" id="organicPercentage" class="textBox"
+             maxlength="4" required="required"
+             placeholder="0-100"/>
+      <label for="organicPercentage">%</label>
+
+      <br /><br />
+
+      <label for="availability">Is This Product Available Now?</label>
+      <span class="tinySpacer"></span>
+      <input type="radio" name="availability" value="01" id="yes" />
+      <label for="yes">Yes</label>
+
+      <span class="tinySpacer"></span>
+
+      <input type="radio" name="availability" value="02" id="no" checked="checked" />
+      <label for="no">No</label>
+
+      <fieldset id="productDescription">
+      <legend for="productDescription">Product Description</legend>
+      <textarea name="productDescription" id="productDescription"
+                maxlength="1000" required="required"
+                placeholder="Tell Us a Little About Your New Product"></textarea>
+      </fieldset>
+
+    </fieldset>
+
+          <p id="controlButtons">
+          <input type="submit"
+             value="Submit Form" />
+          <input type="reset"
+               value="Do Not Send--Start Over" />
+          </p>
+
+
+          </form>
+      </article>
+
+  </section>
+
+  <footer>
+    <a href="newArtist.html">Visit the New Artist Form</a>
+    <br /><br /><br /><br />
+    <a href="index.html">Return to Homepage</a>
+  </footer>
+
+</div>
+
+</body>
+
+</html>
+
+
+
+

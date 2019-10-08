@@ -1,0 +1,76 @@
+/*  External style sheet for faq.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  10/4/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    faq.html web page
+*/
+
+body {
+    background-image: url(../images/greenLeaves.jpg)
+}
+
+div#wrapper {
+	background-color: rgba(152, 173, 167, 0.6); 
+	border: 0.1em double gray;
+	border-radius: 8em;
+	padding: 4em; 
+}
+
+h1#top {
+    color: #266061;
+    font-family: "Book Antiqua", serif;
+    font-size: 4em;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 2px 3px #3e4241;
+}
+
+h2 {
+    color: #9e081f;
+    font-family: "Book Antiqua", serif;
+    font-size: 2.2em;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px palevioletred;
+}
+
+h3.question {
+    color: #5d0b59;
+    font-family: "Book Antiqua", serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px cornflowerblue;
+}
+
+p.answer {
+    color: #060477;
+    font-size: 1.05em;
+}
+
+aside {
+    background-color: rgba(62, 146, 147, .5);
+    border: 2px solid #274c43;
+    margin: 2em;
+    float: right;
+    padding: 1em 2em 2em 2em;
+    width: 20em;
+}
+
+article#future {
+    border: 4px outset #0e1045;
+    background-color: rgba(9, 101, 115, .5);
+    margin: 2em 4em 2em 4em;
+    padding: 0.5em 2em 1em 2em;
+}
+
+nav#footerMenu {
+    text-align: center;
+}
+
+p#date {
+    color: #1e415d;
+}

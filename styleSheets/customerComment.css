@@ -1,0 +1,141 @@
+/*  External style sheet for customerComment.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  10/23/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    customerComment.html web page
+*/
+
+body {
+	background-image: url(../images/pineBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    margin-top: 0em;
+    text-align: center;
+}
+
+header h1 {
+	color: darkred;
+	font-family: "Book Antiqua", Times, serif;
+	font-size: 3em;
+	font-variant: small-caps;
+	margin-bottom: 0em;
+	text-shadow: 2px 3px 4px crimson;
+}
+
+header h2#questions {
+	color: midnightblue;
+	margin-top: .5em;
+	text-shadow: 2px 3px 4px lightblue;
+}
+
+header h2#instructions {
+	color: darkgreen;
+	text-shadow: 2px 3px 4px lightgreen;
+
+}
+
+header p {
+    color: maroon;
+    font-family: "Book Antiqua", Times, serif;
+    text-align: center;
+}
+
+form {
+    background-color: crimson;
+    border: .5em ridge maroon;
+    border-radius: 1em;
+    color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    text-align: center;
+    width: 35em;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-shadow: 3px 4px 5px #560303;
+}
+
+form input {
+    font-family: monospace;
+}
+
+input#customerName {
+	background-color: lightblue;
+	border: .2em ridge midnightblue;
+	border-radius: .3em;
+	padding: .3em;
+    transition-duration: .3s;
+    transition-property: all;
+    width: 12em;
+}
+
+input#customerName:hover {
+	background-color: azure;
+	border: .2em outset midnightblue;
+	box-shadow: 3px 4px 5px #560303;
+}
+
+textarea#commentFromCustomer {
+    background-color: lightblue;
+    border: .2em ridge midnightblue;
+    border-radius: 1em;
+    height: 10em;
+    padding: 1em;
+    transition-duration: .3s;
+    transition-property: all;
+    width: 40em;
+}
+
+textarea#commentFromCustomer:hover {
+    background-color: azure;
+    border: .2em outset midnightblue;
+    box-shadow: 3px 4px 5px #560303;
+}
+
+article#controlButtons input {
+    background-color: lightgreen;
+    border: .2em ridge darkgreen;
+    border-radius: 1em;
+    color: darkgreen;
+    font-family: "Book Antiqua", Times, serif;
+    font-size: .9em;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: .4em;
+    transition-duration: .3s;
+    transition-property: all;
+    width: 18em;
+}
+
+article#controlButtons input:focus {
+    background-color: seagreen;
+    border: .2em ridge teal;
+    box-shadow: 3px 4px 5px #560303;
+    color: orange;
+}
+
+article#controlButtons input:hover {
+    background-color: seagreen;
+    border: .2em ridge teal;
+    box-shadow: 3px 4px 5px #560303;
+    color: orange;
+}
+
+footer {
+	margin-top: 2em;
+}
+
+footer nav {
+    text-align: center;
+}

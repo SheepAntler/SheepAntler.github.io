@@ -1,0 +1,37 @@
+/*  Master style sheet for all web pages in the website.html
+    Author:  Elspeth Stalter-Clouse
+    Date:    10/29/2018
+*/
+
+/*  This rule is to ensure that all browsers will treat the
+    newer HTML5 elements as block-level (aka grouping) elements.
+*/
+
+header, footer, nav, section, article, aside, figure {
+    display: block;
+}
+
+/*--------------------------------------------------------*/
+
+body {
+    padding: 1em .5em .5em 1em;
+    background-color: pink;   /* temporary for verifying connection */
+}
+
+div#wrapper {
+    font-family: "Book Antiqua", Times, serif;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width:  80em;
+    padding: 1.5em;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+p#date {
+    text-align: right;
+}

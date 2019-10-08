@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  Elspeth Stalter-Clouse
+         Date:    11/26/2018
+  -->
+  <title>Form to Become a Friend of Arte Del Mundo</title>
+  <meta charset="UTF-8" />
+  <link href="../styleSheets/masterStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/newFriend.css"
+        rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <header>
+    <h1>New Friend Form</h1>
+    <h2>It's Easy to Become a Friend!</h2>
+  </header>
+
+  <section>
+
+     <article id="joinInfo">
+        <p>Thank you for visiting this page and considering becoming a Friend of Arte Del Mundo! No matter who you are or where you are from,
+           we would love to welcome you to our community of art enthusiasts supporting local artisans all over the world.</p>
+
+        <p>The data that we gather in this form will never be shared in any way outside of our organization. We will keep your personal information
+           on file for shipping and billing purposes only.</p>
+
+        <p>Regrettably, we are unable to accept credit card payments at this time; however, please do stay tuned for this feature as we hope to add it
+           in the near future!</p>
+
+        <h3>Welcome to Arte Del Mundo; We're Happy You're Here!</h3>
+     </article>
+
+     <span class="smallSpacer"></span>
+
+     <article>
+        <form name="newFriend" id="newFriend"
+              action="http://itins3.madisoncollege.edu/echo.php"
+              method="post">
+
+    <fieldset id="friendName">
+    <legend>Name</legend>
+
+        <label for="firstName">First Name:</label>
+        <input type="text"
+               name="firstName" id="firstName" class="textBox"
+               maxlength="20"
+               placeholder="20 characters max" />
+
+    <span class="smallSpacer"></span>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text"
+               name="lastName" id="lastName" class="textBox"
+               maxlength="25"
+               placeholder="25 characters max" />
+
+        </fieldset>
+
+        <fieldset id="friendAddress">
+        <legend>Address</legend>
+
+        <label for="friendAddress">Street Address:</label>
+        <input type="text"
+               name="address" id="address" class="textBox"
+               maxlength="35"
+               placeholder="Building #, Street, Apt #" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="friendCity">City:</label>
+        <input type="text"
+               name="friendCity" id="friendCity" class="textBox"
+               maxlength="20"
+               placeholder="20 characters max" />
+
+        <br /><br />
+
+        <label for="friendLocation">State/Province/Region:</label>
+        <input type="text"
+               name="friendLocation" id="friendLocation" class="textBox"
+               maxlength="20"
+               placeholder="Please Spell in Full" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="friendMailCode">ZIP/Mail Code:</label>
+        <input type="text"
+               name="friendMailCode" id="friendMailCode" class="textBox"
+               maxlength="15"
+               placeholder="15 characters max" />
+
+        <br /><br />
+
+        <label for="friendCountry">Country:</label>
+        <select name="friendCountry" id="friendCountry">
+            <option value="DPA">Choose Your Country</option>
+            <option value="001">Australia</option>
+            <option value="002">Canada</option>
+            <option value="003">Cambodia</option>
+            <option value="004">Czechia</option>
+            <option value="005">Great Britain</option>
+            <option value="006">India</option>
+            <option value="007">Iran</option>
+            <option value="008">Italy</option>
+            <option value="009">Peru</option>
+            <option value="010">United States of America</option></select>
+
+        </fieldset>
+
+        <fieldset id="friendContactInformation">
+        <legend>Contact Information</legend>
+
+        <label for="friendPhone">Phone Number:</label>
+        <input type="text"
+               name="friendPhone" id="friendPhone" class="textBox"
+               maxlength="15"
+               placeholder="15 characters max" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="friendEmail">Email:</label>
+        <input type="text"
+               name="friendEmail" id="friendEmail" class="textBox"
+               maxlength="40"
+               placeholder="Optional" />
+
+        </fieldset>
+
+        <fieldset id="joinGroup">
+        <legend>Are You Interested in Joining a Local Group?</legend>
+
+        <input type="radio" name="localGroup" value="101" id="yes" />
+        <label for="yes">Yes</label>
+
+        <span class="smallSpacer"></span>
+
+        <input type="radio" name="localGroup" value="102" id="no" />
+        <label for="no">No</label>
+
+        </fieldset>
+
+        <fieldset id="paymentInfo">
+        <legend>Choose Your Payment Method</legend>
+
+        <select name="paymentInfo" id="paymentInfo">
+            <option value="DPA">I would like to pay...</option>
+            <option value="A123">Now, by check</option>
+            <option value="B234">Now, by money order</option>
+            <option value="C345">Bill me later, please</option></select>
+
+       </fieldset>
+
+       <fieldset id="comments">
+       <legend for="comments">Any Additional Comments?</legend>
+       <textarea name="otherComments" id="otherComments"
+                 placeholder="Please Share Them Here!"
+                 maxlength="1000"
+                 required="required"></textarea>
+       </fieldset>
+
+        <p id="controlButtons">
+        <input type="submit"
+        	     value="Submit Form" />
+        <input type="reset"
+               value="Do Not Send--Start Over" />
+        </p>
+
+        </form>
+     </article>
+
+  </section>
+
+  <footer>
+    <a class="footerButtons" href="friendsInfo.html">Already a Friend? Click Here!</a>
+    <br /><br /><br />
+    <a class="footerButtons" href="index.html">Return to Homepage</a>
+  </footer>
+
+</div>
+
+</body>
+
+</html>

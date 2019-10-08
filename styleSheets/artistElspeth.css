@@ -1,0 +1,110 @@
+/*  External style sheet for artistElspeth.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  10/25/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    artistElspeth.html web page
+*/
+
+body {
+	background-image: url(../images/dollWall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#wrapper {
+	background-color: rgba(255, 238, 186, .5);
+	border: .3em ridge rgb(255, 238, 186);
+	border-radius: 6em;
+	color: midnightblue;
+	padding: 4em;
+	text-shadow: 1px 2px 3px lightblue;
+}
+
+header h1 {
+	background-color: #4f0000;
+	border: .2em double crimson;
+	border-radius: 3em;
+	color: lightgreen;
+    font-family: "Book Antiqua", Times, serif;
+    font-size: 4em;
+    font-variant: small-caps;
+    padding: .2em;
+    text-align: center;
+    text-shadow: 2px 3px 4px green;
+}
+
+figure#photoContainer {
+    /* background-color: cyan; /* TEMP FOR TESTING */
+    float: right;
+    margin-left: 3em;
+    width: 38em;
+}
+
+img {
+	border: .3em ridge maroon;
+    width: 100%
+}
+
+article p {
+    font-family: "Book Antiqua", Times, serif;
+    font-size: 1.1em;
+}
+
+article p:first-letter {
+	color: darkgreen;
+    font-size: 2em;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px lightgreen;
+}
+
+aside#contactInfo {
+	background-color: #4f0000;
+    border: .4em double crimson;
+    box-shadow: 7px 8px 9px #330f0f;
+    color: #db81bb;
+    font-family: "Book Antiqua", Times, serif;
+    font-size: 1em;
+    margin-left: 4em;
+    margin-top: 2em;
+    padding: .6em 2em 1em 2em;
+    text-shadow: none;
+    width: 25em;
+}
+
+aside#contactInfo h1 {
+	color: lightgreen;
+    font-family: "Book Antiqua", Times, serif;
+    font-size: 2em;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: .5em;
+    text-align: center;
+    text-shadow: 1px 2px 3px green;
+}
+
+aside#contactInfo p:first-letter {
+	color: lightblue;
+	text-shadow: 1px 2px 3px blue;
+}
+
+aside#contactInfo p {
+    margin-top: 0em;
+}
+
+hr {
+    border: 1px solid teal;
+}
+
+
+footer p#date {
+	background-color: #4f0000;
+	border: .2em ridge crimson;
+	color: lightgreen;
+    margin-top: 2em;
+	padding: .5em;
+    text-shadow: 1px 2px 3px green;
+}

@@ -1,0 +1,348 @@
+/*  External style sheet for newProduct.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  09/15/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    newProduct.html web page
+*/
+
+body {
+    background-image: url(../images/yellowGreenPaint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#wrapper {
+	background-color: rgba(4, 61, 19, 0.5);
+	border: .05em outset #022b0d;
+	border-radius: 3em;
+	padding: 3em;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	background-color: rgba(2, 91, 88, 0.5);
+	border: .1em inset #064c40;
+	border-radius: 3em;
+	color: #0fbc9f;
+	font-size: 4em;
+	font-variant: small-caps;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .6em;
+	text-shadow: 2px 3px 4px #064c40;
+	width: 18em;
+}
+
+header h2 {
+	background-color: rgba(2, 91, 88, 0.5);
+	border: .1em inset #064c40;
+	border-radius: 3em;
+	color: #0fbc9f;
+	font-size: 2em;
+	font-variant: small-caps;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .5em;
+	text-shadow: 2px 3px 4px #064c40;
+	width: 25em;
+}
+
+span.smallSpacer {
+	margin: 1em;
+}
+
+span.tinySpacer {
+	margin: .5em;
+}
+
+fieldset {
+	margin: 1em;
+	padding: 1em;
+}
+
+input {
+	font-family: monospace;
+}
+
+article#newProductInfo {
+	background-color: rgba(6, 68, 23, 0.5);
+	border: .3em ridge #0c9631;
+	border-radius: 3em;
+	color: #93c1b3;
+	font-size: 1.1em;
+	padding: 1em; 
+	text-shadow: 1px 1px 1px black;
+}
+
+fieldset#artistLogin {
+	background-color: rgba(6, 68, 23, 0.5);
+	border: .3em ridge #0c9631;
+	border-radius: 1em;
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 37em;
+}
+
+fieldset#artistLogin legend {
+	background-color: #02330f;
+	border: .3em ridge #187230;
+	border-radius: 1em;
+	color: #1caf43;
+	padding: .5em;
+	text-shadow: 1px 1px 2px black;
+}
+
+fieldset#artistLogin {
+	color: #01230a;
+	text-shadow: 1px 1px 2px #1caf43;
+}
+
+fieldset#artistLogin input {
+	background-color: #59d179;
+	border: .2em ridge #02330f;
+	border-radius: .5em;
+	padding: .5em;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+fieldset#artistLogin input:focus {
+	background-color: #a8edba;
+	box-shadow: 3px 4px 5px black;
+}
+
+fieldset#artistLogin input:hover {
+	background-color: #a8edba;
+	box-shadow: 3px 4px 5px black;
+}
+
+input#artistId {
+	width: 12em;
+}
+
+fieldset#productInfo {
+	background-color: rgba(16, 140, 70, 0.5);
+	border: .3em ridge #17d66a;
+	border-radius: 1em;
+	color: #092b18;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #17d66a;
+	width: 50em;
+}
+
+fieldset#productInfo legend {
+	background-color: #095429;
+	border: .3em ridge #217c49;
+	border-radius: 1em;
+	color: #17d66a;
+	padding: .5em;
+	text-shadow: 1px 1px 2px black;
+}
+
+fieldset#productInfo input {
+	background-color: #62ef9f;
+	border: .2em ridge #095429;
+	border-radius: .5em;
+	color: #095429;
+	padding: .5em;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+input#productPrice:focus {
+	background-color: #9deabe;
+	box-shadow: 3px 4px 5px black;
+}
+
+input#productPrice:hover {
+	background-color: #acefc9;
+	box-shadow: 3px 4px 5px black;
+}
+
+fieldset#productInfo select {
+	background-color: #62ef9f;
+	border: .2em ridge #095429; 
+	border-radius: .5em;
+	color: #095429;
+	padding: .5em;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+select#productCategory:focus {
+	background-color: #9deabe;
+	box-shadow: 3px 4px 5px black;
+}
+
+select#productCategory:hover {
+	background-color: #9deabe;
+	box-shadow: 3px 4px 5px black;
+}
+
+fieldset#productWeight {
+	background-color: rgba(60, 140, 16, 0.5);
+	border: .3em ridge #58cc18;
+	border-radius: 1em;
+	color: #163505;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #58cc18;
+	width: 55em;
+}
+
+fieldset#productWeight legend {
+	background-color: #1d4408;
+	border: .3em ridge #369601;
+	border-radius: 1em;
+	color: #58cc18;
+	padding: .5em;
+	text-shadow: 1px 1px 2px black;
+}
+
+fieldset#productWeight input {
+	background-color: #84cc5d;
+	border: .2em ridge #225408;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+fieldset#productWeight input.textBox:focus {
+	background-color: #b2e597;
+	box-shadow: 3px 4px 5px black;
+}
+
+fieldset#productWeight input.textBox:hover {
+	background-color: #b2e597;
+	box-shadow: 3px 4px 5px black;
+}
+
+input#organicPercentage {
+	text-align: right;
+	width: 3em;
+}
+
+input#organicPercentage:focus {
+	background-color: #acefc9;
+	box-shadow: 3px 4px 5px black;
+}
+
+input#organicPercentage:hover {
+	background-color: #acefc9;
+	box-shadow: 3px 4px 5px black;
+}
+
+fieldset#productDescription {
+	background-color: rgba(60, 140, 16, 0.5);
+	border: .3em ridge #58cc18;
+	border-radius: 1em;
+	color: #367c0e;
+	padding: 1.5em;
+	width: 18em;
+}
+
+fieldset#productDescription legend {
+	background-color: #1d4408;
+	border: .3em ridge #369601;
+	border-radius: 1em;
+	color: #58cc18;
+	padding: .5em;
+	text-shadow: 1px 1px 2px black;
+}
+
+textarea#productDescription {
+	background-color: #84cc5d;
+	border: .2em ridge #225408;
+	border-radius: 1em;
+	height: 15em;
+	padding: 1em;
+	transition-duration: .3s;
+	transition-property: all;
+	width: 22em;
+}
+
+textarea#productDescription:focus {
+	background-color: #b2e597;
+	box-shadow: 3px 4px 5px black;
+}
+
+textarea#productDescription:hover {
+	background-color: #b2e597;
+	box-shadow: 3px 4px 5px black;
+}
+
+p#controlButtons input {
+	background-color: #aee55b;
+	border: .2em ridge #064c40;
+	border-radius: .7em;
+	color: #598e08;
+	font-family: "Book Antiqua", Times, serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: .5em;
+	padding: .5em;
+	text-shadow: 1px 1px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+p#controlButtons input:focus {
+	background-color: #c9f936;
+	border: .2em ridge #2e5908;
+	box-shadow: 3px 4px 5px black;
+	color: #193303;
+	text-shadow: 1px 1px gold;
+}
+
+p#controlButtons input:hover {
+	background-color: #c9f936;
+	border: .2em ridge #2e5908;
+	box-shadow: 3px 4px 5px black;
+	color: #193303;
+	text-shadow: 1px 1px gold;
+}
+
+footer {
+	margin-top: 4em;
+	text-align: center;
+}
+
+footer a:link {
+	background-color: rgba(2, 91, 88, 0.5);
+	border: .2em ridge #064c40;
+	border-radius: 3em;
+	color: #0fbc9f;
+	font-size: 1.5em;
+	padding: .6em;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+footer a:visited {
+	background-color: rgba(131, 175, 166, 0.5);
+	border: .2em ridge #385651;
+	color: #ace5db;
+}
+
+footer a:focus {
+	background-color: #01997a;
+	border: .2em ridge #005949;
+	box-shadow: 3px 4px 5px black;
+	color: #00ff6e;
+
+}
+
+footer a:hover {
+	background-color: #01997a;
+	border: .2em ridge #005949;
+	box-shadow: 3px 4px 5px black;
+	color: #00ff6e;
+
+}

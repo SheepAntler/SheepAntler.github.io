@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  Elspeth Stalter-Clouse
+         Date:    11/26/2018
+  -->
+  <title>Join the Arte Del Mundo Artist Family</title>
+  <meta charset="UTF-8" />
+  <link href="../styleSheets/masterStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/newArtist.css"
+        rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <header>
+    <h1>New Artist Application Form</h1>
+    <h2>For Use by Artists Wishing to Join the Arte Del Mundo Family of Artists</h2>
+  </header>
+
+  <section>
+
+     <article id="applyInfo">
+        <p>Welcome to the Arte Del Mundo Artist Application Page! If you are an artist and you would like your work represented on our site,
+           you've come to the right place.</p>
+
+       <p>Here at Arte Del Mundo, we only deal directly with artisans from around the world. If you have a product that you personally create in a home
+          studio, please fill out the form below in order to be placed under consideration via our admissions team. If, however, you are a broker
+          intending to sell ethnic gifts wholesale to our business from your country of residence, your application will be revoked.</p>
+
+       <p>If you are indeed an individual wishing to sell small batches of products through us, however, we are happy to have you here! We love seeing
+          what new contributions artists from all over the world have to make to our ever-growing list of products, and we are looking forward to
+          reviewing your work!</p>
+
+       <p>The information with which you provide us in the form below will never be shared outside of our organization. We merely ask for it in order
+          to build you a personalized webpage on our site. Please head over to our <a href="allArtists.html">Artists Page</a> to see samples of
+          our developers' work!</p>
+
+       <p>Once we've reviewed your work, a staff member will be in touch with you regarding the data you provide below. Before you are able to sell your
+          work through our organization, you will need to be assigned an artist ID number and password before sending in any data regarding the specifics
+          of any of your products.</p>
+
+     </article>
+
+     <article>
+        <form name="newArtist" id="newArtist"
+              action="http://itins3.madisoncollege.edu/echo.php"
+              method="post">
+
+        <fieldset id="name">
+        <legend>Name</legend>
+
+        <label for="firstName" id="firstName">First Name:</label>
+        <input type="text"
+               name="firstName" id="firstName" class="textBox"
+               maxlength="20"
+               placeholder="20 characters max" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="lastName" id="lastName">Last Name:</label>
+        <input type="text"
+               name="lastName" id="lastName" class="textBox"
+               maxlength="25"
+               placeholder="25 characters max" />
+
+        </fieldset>
+
+        <fieldset id="address">
+        <legend>Address</legend>
+
+        <label for="artistAddress">Street Address:</label>
+        <input type="text"
+               name="artistAddress" id="artistAddress" class="textBox"
+               maxlength="25"
+               placeholder="Building #, Street, Apt. #" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="artistCity">City:</label>
+        <input type="text"
+               name="artistCity" id="artistCity" class="textBox"
+               maxlength="20"
+               placeholder="20 characters max" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="artistLocation">State/Province/Region:</label>
+        <input type="text"
+               name="artistLocation" id="artistLocation" class="textBox"
+               maxlength="20"
+               placeholder="Please Spell in Full" />
+
+        <br /><br />
+
+        <label for="artistMailCode">ZIP/Mail Code:</label>
+        <input type="text"
+               name="artistMailCode" id="artistMailCode" class="textBox"
+               maxlength="15"
+               placeholder="15 characters max" />
+
+        <span class="smallSpacer"></span>
+
+        <label for="artistCountry">Country:</label>
+        <select name="artistCountry" id="artistCountry">
+            <option value="DPA">Choose Your Country</option>
+            <option value="001">Australia</option>
+            <option value="002">Canada</option>
+            <option value="003">Cambodia</option>
+            <option value="004">Czechia</option>
+            <option value="005">Great Britain</option>
+            <option value="006">India</option>
+            <option value="007">Iran</option>
+            <option value="008">Italy</option>
+            <option value="009">Peru</option>
+            <option value="010">United States of America</option></select>
+
+       </fieldset>
+
+       <fieldset id="artistGender">
+       <legend>Gender</legend>
+
+       <label for="artistGender">Gender:</label>
+       <select name="artistGender" id="artistGender">
+           <option value="DPA">Choose Your Gender</option>
+           <option value="101">Female</option>
+           <option value="102">Male</option>
+           <option value="103">Other</option></select>
+
+       </fieldset>
+
+       <fieldset id="artistContactInformation">
+       <legend>Contact Information</legend>
+
+       <label for="artistPhone">Phone Number:</label>
+       <input type="text"
+              name="artistPhone" id="artistPhone" class="textBox"
+              maxlength="15"
+              placeholder="15 characters max" />
+
+        <span class="smallSpacer"></span>
+
+       <label for="artistEmail">Email:</label>
+       <input type="text"
+              name="artistEmail" id="artistEmail" class="textBox"
+              maxlength="40"
+              placeholder="Optional" />
+
+       </fieldset>
+
+       <fieldset id="professionalInfo">
+       <legend>Tell Us About Your Work</legend>
+
+       <label for="artistMedia">I Work With (Select All that Apply):</label>
+       <input type="checkbox" name="ceramic" id="ceramic" />
+       <label for="ceramic">Ceramic</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="fabric" id="fabric" />
+       <label for="fabric">Fabric</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="metal" id="metal" />
+       <label for="metal">Metal</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="paint" id="paint" />
+       <label for="paint">Paint</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="wood" id="wood" />
+       <label for="wood">Wood</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="plastic" id="plastic" />
+       <label for="plastic">Plastic</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="paper" id="paper" />
+       <label for="paper">Paper</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="stone" id="stone" />
+       <label for="stone">Stone</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="glass" id="glass" />
+       <label for="glass">Glass</label>
+
+       <span class="tinySpacer"></span>
+
+       <input type="checkbox" name="other" id="other" />
+       <label for="other">Other</label>
+
+       <br /><br />
+
+       <label for="quantityDiscount">Do You Offer Discounts for Quantity?</label>
+       <input type="radio" name="quantityDiscount" value="01" id="yesDiscount" />
+       <label for="yes">Yes</label>
+
+       <input type="radio" name="quantityDiscount" value="02" id="noDiscount" 
+       		  checked="checked"/>
+       <label for="no">No</label>
+
+       <br /><br />
+
+       <label for="professionalName">Do You Work Under a Professional Name?</label>
+       <input type="radio" name="professionalName" value="01" id="yesAlias" />
+       <label for="yes">Yes</label>
+
+       <input type="radio" name="professionalName" value="02" id="noAlias" 
+       	      checked="checked"/>
+       <label for="no">No</label>
+
+       <br /><br />
+
+       <label for="ownWork">Do You Agree to Sell Only Your Own Work?</label>
+       <input type="radio" name="ownWork" value="01" id="yesExclusive" 
+              checked="checked" />
+       <label for="yes">Yes</label>
+
+       <input type="radio" name="ownWork" value="02" id="noExclusive" />
+       <label for="no">No</label>
+
+       </fieldset>
+
+       <fieldset id="personalInfo">
+       <legend for="personalInfo">Personal Information</legend>
+       <label for="password">Create a Password:</label>
+       <input type="password" name="password" id="password" class="textBox"
+              maxlength="15" required="required"
+              placeholder="15 characters max" />
+
+       <span class="smallSpacer"></span>
+
+       <label for="reenterPassword">Re-Enter Your Password:</label>
+       <input type="password" name="reenterPassword" id="reenterPassword" class="textBox"
+              maxlength="15" required="required"
+              placeholder="15 characters max" />
+
+       <fieldset id="artistBio">
+       <legend for="artistBio">Biography</legend>
+       <textarea name="artistBio" id="artistBio"
+                 maxlength="1000" required="required"
+                 placeholder="Tell Us a Little About Yourself!"></textarea></fieldset>
+
+       </fieldset>
+
+        <p id="controlButtons">
+        <input type="submit" 
+        	     value="Submit Form" />
+        <input type="reset" 
+               value="Do Not Send--Start Over" />
+        </p>
+
+
+        </form>
+     </article>
+
+  </section>
+
+  <footer>
+    <a id="homeButton" href="index.html">Return to Homepage</a>
+  </footer>
+
+</div>
+
+</body>
+
+</html>
+
+
+
+

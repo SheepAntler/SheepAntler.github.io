@@ -1,0 +1,113 @@
+/*  External style sheet for allProducts.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  09/15/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    allProducts.html web page
+*/
+
+body {
+    background-image: url(../images/paintBrushColors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#wrapper {
+    background-color: rgba(34, 33, 38, 0.8);
+    border-radius: 4em;
+    padding: 4em;
+}
+
+header h1 {
+    background-color: #424056;
+    border: .3em ridge #292451;
+    border-radius: .5em;
+    color: #a89cba;
+    font-size: 4em;
+    padding: .1em;
+    text-align: center;
+    text-shadow: 3px 4px 5px #100223;
+}
+
+article#productPageInfo {
+    background-color: #424056;
+    border: .2em ridge #292451;
+    border-radius: .5em;
+    color: #a89cba;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+table {
+    background-color: #100223;
+    color: #a89cba;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px purple;
+    width: 90%;
+}
+
+td {
+	border: .2em ridge #424056;
+	padding: 1em;
+}
+
+td img.productPhoto {
+    border: .2em ridge gray;
+    transition-duration: .3s;
+    transition-property: all;
+    width: 100%;
+}
+
+td img.productPhoto:hover {
+    border: .2em outset orchid;
+    box-shadow: 3px 4px 5px purple;
+}
+
+td a.productPage:link {
+    color: #a89cba;
+    padding: .7em;
+    text-shadow: 1px 2px 3px purple;
+    transition-duration: .3s;
+    transition-property: all;
+
+}
+
+td a.productPage:visited {
+    color: orchid;
+
+}
+
+td a.productPage:focus {
+    border-radius: 4em;
+    box-shadow: 3px 4px 5px #424056;
+    color: purple;
+
+}
+
+td a.productPage:hover {
+    border-radius: 4em;
+    box-shadow: 3px 4px 5px #424056;
+    color: purple;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    background-color: #424056;
+    border: .2em ridge #292451;
+    border-radius: .5em;
+    color: #a89cba;
+    font-size: 1em;
+    margin-top: 2em;
+    padding: .5em;
+}

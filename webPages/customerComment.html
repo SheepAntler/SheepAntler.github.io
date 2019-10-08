@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  Elspeth Stalter-Clouse
+         Date:    10/23/2018
+  -->
+  <title>Customer Comments</title>
+  <meta charset="UTF-8" />
+  <link href="../styleSheets/masterStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/customerComment.css"
+        rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+  <h1>Customer Comments</h1>
+  <h2 id="questions">How was your experience? We want to know!</h2>
+  <h2 id="instructions">Please leave your comments in the form below.</h2>
+  <p> If you would like to take a screen shot of your comment for future reference, please do! You may use the "PrtScn" button on your browser. If that 
+  	  fails, you may try using the Windows Snipping Tool, or other screen capture software such as SnagIt, if available.</p>
+  <p>Also, even though we live in the days of autocorrect, our form does not have a spellchecker! Please check your spelling before submitting your comment. Thank you!</p>
+</header>
+
+<form name="form01" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+  <label>Key in your name: </label>
+    <input type="text"
+           name="customerName"
+           id="customerName"
+           maxlength="20"
+           placeholder="last, first"
+           required="required" />
+
+<br /><br />
+
+<textarea name="commentFromCustomer"
+          id="commentFromCustomer"
+          placeholder="Please key your comment here!"
+          required="required"></textarea>
+
+<br /><br />
+
+<article id="controlButtons">
+  <input type="submit" value="Submit My Comment" />
+  <input type="reset"  value="Clear form - DO NOT SEND" />
+</article>
+
+</form>
+
+<footer>
+
+  <nav>
+    <a href="index.html">
+    <img alt="Blue Back to Homepage Button"
+           src="../images/blu5home.gif" /></a>
+  </nav>
+</footer>
+
+</div>
+
+</body>
+
+</html>
+
+
+
+

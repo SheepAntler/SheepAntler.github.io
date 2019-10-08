@@ -1,0 +1,184 @@
+/*  External style sheet for countryOfCzechia.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  10/22/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    countryOfCzechia.html web page
+*/
+
+body {
+	background-image: url(../images/pragueSunsetWall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div {
+	background-image: url(../images/geometry.png);
+	color: aliceblue;
+}
+
+header h1 {
+	background-color: rgba(57, 94, 140, 0.4);
+	border: .1em ridge lightseagreen;
+	border-radius: .2em;
+	color: #e096bc;
+	font-family: "Book Antiqua", Times, serif;
+	font-size: 4em;
+	font-variant: small-caps;
+	margin-top: .5em;
+	text-align: center;
+	text-shadow: 3px 4px 5px #301130;
+}
+
+section h2 {
+	color: #e09696;
+	font-family: "Book Antiqua", Times, serif;
+	font-size:2em;
+	color: #e09696;
+	font-variant: small-caps;
+	margin-bottom: 0em;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 2px 3px #5b0529;
+}
+
+section h3 {
+	color: #ffdc6b;
+	font-family: "Book Antiqua", Times, serif;
+	font-size: 1.6em;
+	font-variant: small-caps;
+	margin-top: 0em;
+	text-align: center;
+	text-shadow: 1px 2px 3px #e56612;
+}
+
+figure#photoContainer {
+	float: left;
+	margin-bottom: 7em;
+	margin-right: 4em;
+	margin-top: 7em;
+	width: 45em;
+}
+
+figure#photoContainer img {
+	/* background-color: cyan; /* TEMP FOR TESTING */
+	border: 0.5em ridge rgb(57, 94, 140);
+	height: 30em;
+	width: 100%;
+
+}
+
+nav.artistInfo {
+	text-align: center;
+}
+
+a.button:link {
+	background-color: #d64d2a;
+	border: .3em double lightseagreen;
+	border-radius: .2em;
+	color: #dbd4d2;
+	font-family: "Book Antiqua", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+a.button:visited {
+	background-color: #a30000;
+	border: .3em double #007f65;
+	color: #dbd4d2;
+}
+
+a.button:focus {
+	background-color: salmon;
+	border: .5em double darkseagreen;
+	color: yellow;
+	box-shadow: 2px 3px 4px rgb(57, 94, 140);
+}
+
+a.button:hover {
+	background-color: salmon;
+	border: .5em double teal;
+	color: yellow;
+	box-shadow: 2px 3px 4px rgb(57, 94, 140);
+}
+
+nav#czechiaInfoNav a:link {
+	background-color: rgba(13, 153, 163, 0.4);
+	border: .2em ridge #e096bc;
+	border-radius: .4em;
+	color: orange;
+	font-size: 1em;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin: 1em;
+	margin-bottom: 3em;
+	padding: .3em 1em .3em 1em;
+	text-decoration: none;
+	text-shadow: 3px 4px 5px #301130;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+nav#czechiaInfoNav a:visited {
+	background-color: rgba(57, 94, 140, 0.4);
+	border: .2em ridge gray;
+	color: #e096bc;
+	text-shadow: 3px 4px 5px #301130;
+}
+
+nav#czechiaInfoNav a:focus {
+	background-color: teal;
+	border: .2em ridge purple;
+	box-shadow: 3px 4px 5px gray;
+	color: #ffc300;
+	text-shadow: 3px 4px 5px midnightblue;
+}
+
+nav#czechiaInfoNav a:hover {
+	background-color: teal;
+	border: .2em ridge purple;
+	box-shadow: 3px 4px 5px gray;
+	color: #ffc300;
+	text-shadow: 3px 4px 5px midnightblue;
+
+}
+
+nav#czechiaInfoNav ul {
+	font-size: 1.5em;
+	list-style-type: disc;
+	list-style-image: url(../images/czechFlag5.jpg);
+	list-style-position: outside;
+	margin-left: 15em;
+	margin-top: 4em;
+}
+
+hr {
+    border: 1px solid #ffc300;
+    margin-top: 2em;
+}
+
+footer {
+	clear: all;
+	margin-top: 2em;
+}
+
+footer nav {
+	text-align: center;
+}
+
+footer nav a {
+    margin: 1em
+}
+
+footer p#date {
+	color: lightseagreen;
+	font-size: 1em;
+	text-align: right;
+}
