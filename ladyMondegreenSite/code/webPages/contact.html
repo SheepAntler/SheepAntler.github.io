@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   Author:  Elspeth Stalter-Clouse
+         Date:    12/10/2018
+  -->
+  <meta charset="UTF-8" />
+  <title>Contact Lady Mondegreen</title>
+  <link href="../styleSheets/masterStyles.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/contact.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="../styleSheets/masterRWD.css"
+        rel="stylesheet"
+        type="text/css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Cinzel+Decorative" rel="stylesheet">
+
+  <script src="../javaScriptFiles/masterJavaScript.js">
+  </script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <header>
+    <h1>Carrier Pigeons</h1>
+    <h2>Send Lady Mondegreen a Message</h2>
+  </header>
+
+  <section>
+
+    <article id="formInfo">
+      <p>If you would like to send Lady Mondegreen and the Eggcorns a message, please fill out the form below. Feel free to ask us questions about our work, make song requests for upcoming live  
+         performances, summon us to play at one of your private events&mdash;whatever you may desire. Musicians are public servants; we are here for you!</p>
+      <p>If, however, you are interested in becoming one of our patrons, you can sign up via <a href="newFriend.html">this form</a>.</p>
+    </article>
+
+    <form name="contactLadyMondegreen" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+    <fieldset id="personalInfo">
+    <legend id="personalInfo">Personal Information</legend>
+
+    <label>First Name: </label>
+    <input type="text"
+           name="firstName"
+           id="firstName"
+           maxlength="20"
+           placeholder="Up to 20 Characrs"
+           required="required" 
+		   pattern="^[A-Z][a-z][a-z\s]{0,18}$" />
+
+    <span class="smallSpacer"></span>
+
+    <label>Last Name: </label>
+    <input type="text"
+           name="lastName"
+           id="lastName"
+           maxlength="20"
+           placeholder="Up to 20 Characters"
+           required="required" 
+           pattern="^[A-Z][a-z][a-zA-Z\s]{0,18}$" />
+
+    <span class="smallSpacer"></span>
+
+    <label>Email Address: </label>
+    <input type="text"
+           name="email"
+           id="email"
+           maxlength="50"
+           placeholder="Up to 50 Characters"
+           required="required" />
+
+    </fieldset>
+
+    <br /><br />
+
+    <fieldset id="message">
+    <legend id="message">Message</legend>
+
+    <textarea name="messageFromCustomer"
+              id="messageFromCustomer"
+              placeholder="Pen Your Message Here, then Click Send."
+              required="required"></textarea>
+    </fieldset>
+
+    <article id="controlButtons">
+      <input type="submit" value="Send Message Via Carrier Pigeon" />
+    <span id="spacer"></span>
+      <input type="reset"  value="Rewrite&mdash;Hold the Pigeon!" />
+    </article>
+
+    </form>
+
+  </section>
+
+  <footer>
+    
+    <nav id="footerNav">
+      <a href="aboutLadyMondegreen.html">Back to Lady Mondegreen's Page</a><br /><br /><br />
+      <a href="index.html">Home</a>
+    </nav>
+    <p id="date">
+      <script>
+          displayRenderedDateTime();
+      </script>
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
+

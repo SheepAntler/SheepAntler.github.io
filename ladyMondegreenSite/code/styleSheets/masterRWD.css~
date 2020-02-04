@@ -1,0 +1,136 @@
+/* External Responsive Web Design Media Queries for Lady Mondegreen and the Eggcorns Website
+   Author: Elspeth Stalter-Clouse
+   Date: 12/2/2018
+*/
+
+@media screen and (max-width: 50em)  {
+
+/* Here are the RWD rules that apply to all web pages */
+
+body {
+    padding: 1em;
+}
+
+div#wrapper {
+    padding: .7em .5em .7em .5em;
+    border: .1em ridge brown;
+    border-radius: 2em;
+}
+
+header {
+    font-size: .4em;
+}
+
+p {
+    font-size: .5em;
+}
+
+nav#footerNav {
+    font-size: .4em;
+}
+
+figure#photoContainer {
+    width: 50%;
+}
+
+/* Here are the RWD rules that apply to index.html */
+
+header#indexHeader {
+    font-size: .3em;
+}
+
+nav#homeNav {
+    font-size: .6em;
+}
+
+hr.short2 {
+    width: 10%;
+}
+
+hr.short {
+    width: 20%;
+}
+
+hr.medium2 {
+    width: 30%;
+}
+
+hr.medium {
+    width: 40%;
+}
+
+hr.long2 {
+    width: 50%;
+}
+
+hr.long {
+    width: 60%;
+}
+
+hr.longest2 {
+    width: 70%;
+}
+
+hr.longest {
+    width: 80%;
+}
+
+article#homePage h1{
+    font-size: 2.5em;
+}
+
+article#homePage h2, article#homePage h2#welcome {
+    font-size: 1.5em;
+}
+
+footer p#date {
+    font-size: .5em;
+}
+
+/* Here are the RWD styles that apply to ourBand.html */
+
+figure#photoContainerLeft {
+    width: 50%;
+}
+
+figure#photoContainerRight {
+    width: 50%;
+}
+
+ul {
+    font-size: .3em;
+}
+
+/* Here are the RWD styles that apply to tables. */
+
+th {
+	font-size: .7em;
+}
+
+td {
+	font-size: .6em;
+}
+
+nav#ticketButton {
+	font-size: .5em;
+}
+
+/* Here are the RWD styles that apply to featuredEggcorn.html */
+
+h2#philippaLetticeButtons {
+	font-size: .8em;
+}
+
+button {
+	font-size: .7em;
+}
+
+/* Here are the RWD styles that apply to listen.html. */
+
+figure.photoContainer img {
+	width: 60%;
+}
+
+article.spacer {
+	margin: 3em;
+}

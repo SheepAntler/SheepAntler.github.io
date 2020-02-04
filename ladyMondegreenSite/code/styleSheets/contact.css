@@ -1,0 +1,208 @@
+/*  External style sheet for contact.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  12/10/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    contact.html web page
+*/
+
+body {
+	background-image: url(../images/poppyField.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#wrapper {
+	background-color: rgba(242, 226, 205, 0.5);
+	border: .1em ridge #a58f61;
+}
+
+header h1 {
+	color: #ed7e65;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 4em;
+	margin-bottom: 0em;
+	margin-top: .5em;
+	text-shadow: 3px 4px 5px #4c1003;
+}
+
+header h2 {
+	color: #8ea581;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 2em;
+	margin-top: 0em;
+	text-shadow: 2px 3px 4px #0d2301;
+}
+
+form {
+	margin-top: 2em;
+}
+
+span.smallSpacer {
+	margin: 1.5em;
+}
+
+legend {
+	background-color: #e5c39c;
+	border: .2em ridge #537262;
+	border-radius: 1em;
+	color: #9b0000;
+	font-size: 1.2em;
+	padding: .5em;
+	text-shadow: 1px 2px 3px #3a0909;
+}
+
+fieldset {
+	border: .2em ridge #537262;
+	border-radius: 1em;
+}
+
+fieldset#personalInfo {
+	background-color: rgba(186, 115, 107, 0.3);
+	padding: 2em;
+}
+
+label {
+	color: #ed7e65;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+}
+
+input#firstName, input#lastName, input#email {
+	background-color: #b0c99f;
+	border: .2em ridge #043a1c;
+	border-radius: .5em;
+	font-family: "Eagle Lake", Garamond, serif;
+	padding: .3em;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+input#firstName:focus, input#lastName:focus, input#email:focus {
+	background-color: #d1f2c1;
+	border: .2em outset #086b45;
+	box-shadow: 2px 3px 4px black;
+}
+
+input#firstName:hover, input#lastName:hover, input#email:hover {
+	background-color: #d1f2c1;
+	border: .2em outset #086b45;
+	box-shadow: 2px 3px 4px black;
+}
+
+input#email {
+	width: 20em;
+}
+
+fieldset#message {
+	background-color: rgba(186, 115, 107, 0.3);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em 3em;
+	width: 35em;
+}
+
+textarea#messageFromCustomer {
+	background-color: #b0c99f;
+	border: .2em ridge #043a1c;
+	border-radius: .5em;
+	font-family: "Eagle Lake", Garamond, serif;
+	padding: 1em;
+	height: 30em;
+	margin-left: auto;
+	margin-right: auto;
+	transition-duration: .3s;
+	transition-property: all;
+	width: 45em;
+}
+
+textarea#messageFromCustomer:focus {
+	background-color: #d1f2c1;
+	border: .2em outset #086b45;
+	box-shadow: 2px 3px 4px black;
+}
+
+textarea#messageFromCustomer:hover {
+	background-color: #d1f2c1;
+	border: .2em outset #086b45;
+	box-shadow: 2px 3px 4px black;
+}
+
+span#spacer {
+	margin: 1em;
+}
+
+article#controlButtons {
+	margin-top: 3em;
+}
+
+article#controlButtons input {
+	background-color: #96af77;
+	border: .2em outset #1a2d01;
+	border-radius: 1em;
+	color: gold;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 1.2em;
+	padding: .5em;
+	text-shadow: 1px 1px 2px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+article#controlButtons input:focus {
+	background-color: #d1e2bc;
+	border: .2em inset #405103;
+	box-shadow: 3px 4px 5px black;
+	color: #ff3f00;
+	text-shadow: 1px 1px 2px black;
+}
+
+article#controlButtons input:hover {
+	background-color: #d1e2bc;	
+	border: .2em inset #405103;
+	box-shadow: 3px 4px 5px black;
+	color: #ff3f00;
+	text-shadow: 1px 1px 2px black;
+}
+
+footer nav#footerNav {
+	margin-top: 4em;
+	text-align: center;
+}
+
+footer nav#footerNav a:link{
+	background-color: #4f3232;
+	border: .3em ridge #960000;
+	border-radius: 1em;
+	color: #ff3f00;
+	font-size: 1.3em;
+	padding: .5em;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+footer nav#footerNav a:visited {
+	background-color: #846b6b;
+	border: .3em ridge #932d2d;
+	color: #e88c37;
+	text-shadow: 1px 1px 2px black;
+}
+
+footer nav#footerNav a:focus {
+	background-color: #8e6161;
+	border: .3em outset #590101;
+	box-shadow: 3px 4px 5px gray;
+	color: #ff8c00;
+}
+
+footer nav#footerNav a:hover {
+	background-color: #8e6161;
+	border: .3em outset #590101;
+	box-shadow: 3px 4px 5px gray;
+	color: #ff8c00;
+}

@@ -1,0 +1,186 @@
+/*  External style sheet for events.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  12/2/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    events.html web page
+*/
+
+body {
+	background-image: url(../images/sunTrees.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#wrapper {
+	background-color: rgba(102, 40, 40, 0.8);
+	border: .3em ridge #d10202;
+}
+
+header h1 {
+	background-color: rgba(38, 14, 14, 0.6);
+	border: .2em ridge #700000;
+	border-radius: 0.8em;
+	color: #ff9900;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 5em;
+	padding: .3em;
+	text-shadow: 3px 4px 5px #ff5000;
+}
+
+table {
+	background-color: rgba(53, 19, 19, 0.6);
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: .2em ridge #c10000;
+	color: #e59e04;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 3px 4px 5px black;
+}
+
+td {
+	border: .2em ridge #c13300;
+	color: #f4d777;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 1em;
+	text-align: center;
+	text-shadow: 2px 3px 4px black;
+}
+
+td.photo {
+	padding: 1em 0em 1em 0em;
+	width: 24em;
+}
+
+td img {
+	border: .2em ridge goldenrod;
+	margin-left: 0.2em;
+	width: 90%;
+}
+
+nav#ticketButton {
+	margin-top: 4em;
+	text-align: center;
+}
+
+nav#ticketButton a:link {
+	background-color: #a52b03;
+	border: .3em ridge teal;
+	border-radius: 1em;
+	color: #ff9000;
+	font-size: 2em;
+	font-weight: bold;
+	padding: .5em;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+nav#ticketButton a:visited {
+	background-color: #892904;
+	border: .2em ridge #206d5d;
+	box-shadow: 4px 5px 6px black;
+	color: #d89000;
+}
+
+nav#ticketButton a:focus {
+	background-color: #ea4d19;
+	border: .2em inset #37ceba;
+	box-shadow: 4px 5px 6px black;
+	color: gold;
+}
+
+nav#ticketButton a:hover {
+	background-color: #ea4d19;
+	border: .2em inset #37ceba;
+	box-shadow: 4px 5px 6px black;
+	color: gold;
+}
+
+hr {
+	border: .1em ridge #770404;
+	box-shadow: 3px 4px 5px #ff9000;	
+}
+
+article#tinyMenu {
+	color: gold;
+	font-size: 1.2em;
+	margin-top: 3em;
+}
+
+article#tinyMenu a:link {
+	color: #00e2bd;
+	font-weight: bold;
+	text-decoration: none;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+article#tinyMenu a:visited {
+	color: #00a085;
+}
+
+article#tinyMenu a:focus {
+	color: #00ffa5;
+	text-shadow: 2px 3px 4px black;
+}
+
+article#tinyMenu a:hover {
+	color: #00ffa5;
+	text-shadow: 2px 3px 4px black;
+}
+
+footer {
+	margin-top: 3em;
+	text-align: center;
+}
+
+nav#footerNav a:link {
+	background-color: #a52b03;
+	border: .3em ridge #630a0a;
+	border-radius: 1em;
+	color: #ff9000;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: .5em;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+nav#footerNav a:visited {
+	background-color: #892904;
+	border: .2em ridge #4c2020;
+	box-shadow: 4px 5px 6px black;
+	color: #d89000;
+}
+
+nav#footerNav a:focus {
+	background-color: #ea4d19;
+	border: .2em inset #990000;
+	box-shadow: 4px 5px 6px black;
+	color: gold;	
+}
+
+nav#footerNav a:hover {
+	background-color: #ea4d19;
+	border: .2em inset #990000;
+	box-shadow: 4px 5px 6px black;
+	color: gold;	
+}
+
+p#date {
+	color: darkorange;
+}
+
+

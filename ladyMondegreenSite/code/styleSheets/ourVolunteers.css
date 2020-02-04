@@ -1,0 +1,137 @@
+/*  External style sheet for ourVolunteers.html
+    Author:  Elspeth Stalter-Clouse
+    Date:  12/2/2018
+*/
+
+/*
+    Below are styles that are specific to the
+    ourVolunteers.html web page
+*/
+
+body {
+	background-image: url(../images/skyCastle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#wrapper {
+	color: #30baba;
+	background-color: rgba(19, 27, 61, 0.8);
+	border: .5em ridge #33256d;
+}
+
+header h2 {
+	color: #d38900;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 2em;
+	margin-bottom: 0em;
+	text-shadow: 2px 3px 4px #481ab2;
+}
+header h1 {
+	color: #c952ad;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 5em;
+	margin-bottom: 0em;
+	margin-top: 0em;
+	text-shadow: 2px 3px 4px #efba34;
+}
+
+header h3 {
+	color: #736b8e;
+	font-family: "Eagle Lake", Garamond, serif;
+	font-size: 2em;
+	margin-top: 0em;
+	text-align: center;
+	text-shadow: 2px 3px 4px cyan;
+}
+
+figure#photoContainer {
+	/* background-color: teal; */
+	float: right;
+	width: 45em;
+}
+
+img {
+	border: .4em ridge #70414f;
+	border-radius: 2em;
+	width: 100%;
+}
+
+article#patronInfo p:first-letter {
+	color: #481ab2;
+	font-size: 3em;
+	text-shadow: 2px 3px 4px #d38900;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+hr {
+	border: .1em ridge #c952ad;
+	box-shadow: 1px 2px 3px #efba34;
+}
+
+article#tinyMenu {
+	color: #b399e5;
+	font-size: 1.2em;
+	margin-top: 3em;
+}
+
+article#tinyMenu a:link{
+	color: #ffae00;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px teal;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+article#tinyMenu a:visited {
+	color: #cc8100;
+}
+
+article#tinyMenu a:focus {
+	color: #efc728;
+	text-shadow: 2px 3px 4px lightseagreen;
+}
+
+article#tinyMenu a:hover {
+	color: #efc728;
+	text-shadow: 2px 3px 4px lightseagreen;
+}
+
+footer {
+	margin-top: 3em;
+	text-align: center;
+}
+
+nav#footerNav a:link {
+	background-color: #481ab2;
+	border: .3em ridge teal;
+	border-radius: .5em;
+	color: #ffae00;
+	font-size: 1.2em;
+	padding: .5em;
+	text-decoration: none;
+	text-shadow: 2px 3px 4px black;
+	transition-duration: .3s;
+	transition-property: all;
+}
+
+nav#footerNav a:visited {
+	background-color: #5a526d;
+	border: .3em ridge #1e6f72;
+	color: #c15d00;
+}
+
+nav#footerNav a:focus {
+	background-color: #9e5eff;
+	border: .2em outset #02d8b4;
+	color: #ffdd00;
+}
+
+nav#footerNav a:hover {
+	background-color: #9e5eff;
+	border: .2em outset #02d8b4;
+	color: #ffdd00;
+}
