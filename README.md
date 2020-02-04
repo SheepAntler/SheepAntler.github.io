@@ -6,6 +6,7 @@ of the applications I have built in the past two years.
 
 * ladyMondegreenSite (HTML/CSS, JavaScript)
 * madLibs (PHP, SQL, HTML/CSS)
+* couchPotatoFitness (PHP, SQL, HTML/CSS)
 * nightThinkerBlog (PHP, SQL, Bootstrap)
 * 100DaysOfPractice (PHP, SQL, Bootstrap)
 
