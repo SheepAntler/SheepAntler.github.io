@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Join the Arte Del Mundo Artist Family</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Join our family of artists: fill out our Artist Membership form">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styleSheets/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../styleSheets/newArtist.css" />
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#mainNav" class="skipLink">Skip to Main Navigation</a>
+    <a href="#mainContent" class="skipLink">Skip to Main Content</a>
+    <header>
+        <nav id="mainNav" aria-label="Main Menu">
+            <ul role="menubar">
+                <li role="menuitem"><a href="index.html">Home</a></li>
+                <li role="menuitem"><a href="allProducts.html">Shop</a></li>
+                <li role="menuitem" aria-haspopup="true"><a href="allArtists.html">Artists</a>
+                    <ul role="menu">
+                        <li role="menuitem"><a href="world.html">Find Artists by Country</a></li>
+                        <li role="menuitem"><a href="newArtist.html">Artist Membership</a></li>
+                    </ul>
+                </li>
+                <li role="menuitem" aria-haspopup="true"><a href="about.html">About</a>
+                    <ul role="menu">
+                        <li role="menuitem"><a href="faq.html">FAQ</a></li>
+                        <li role="menuitem"><a href="friendsInfo.html">About Membership</a></li>
+                        <li role="menuitem"><a href="customerService.html">Customer Comments</a></li>
+                    </ul>
+                </li>
+                <li role="menuitem" aria-haspopup="true"><a href="membership.html">Membership</a>
+                    <ul role="menu">
+                        <li role="menuitem"><a href="newFriend.html">Become a Friend</a></li>
+                        <li role="menuitem"><a href="friendsInfo.html">What is a Friend?</a></li>
+                        <li role="menuitem"><a href="newArtist.html">Become a Member Artist</a></li>
+                        <li role="menuitem"><a href="newProduct.html">Register a New Product</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <hr />
+
+        <section class="heading">
+            <h1 class="text-center">New Artist Application Form</h1>
+            <h2 class="text-center">For Use by Artists Wishing to Join the Arte Del Mundo Family of Artists</h2>
+        </section>
+
+        <hr />
+
+    </header>
+
+    <main id="mainContent">
+        <section id="information" class="container mt-5 mb-5 p-4">
+            <h3 class="text-center">Becoming a Member Artist</h3>
+
+            <hr class="mb-4" />
+
+            <p>Welcome to the Arte Del Mundo Artist Application Page! If you are an artist and you would like your work represented on our site,
+               you've come to the right place.</p>
+
+           <p>Here at Arte Del Mundo, we only deal directly with artisans from around the world. If you have a product that you personally create in a home
+              studio, please fill out the form below in order to be placed under consideration via our admissions team. If, however, you are a broker
+              intending to sell ethnic gifts wholesale to our business from your country of residence, your application will be revoked.</p>
+
+           <p>If you are indeed an individual wishing to sell small batches of products through us, however, we are happy to have you here! We love seeing
+              what new contributions artists from all over the world have to make to our ever-growing list of products, and we are looking forward to
+              reviewing your work!</p>
+
+           <p>The information with which you provide us in the form below will never be shared outside of our organization. We merely ask for it in order
+              to build you a personalized webpage on our site. Please head over to our <a href="allArtists.html">Artists Page</a> to see samples of
+              our developers' work!</p>
+
+           <p>Once we've reviewed your work, a staff member will be in touch with you regarding the data you provide below. Before you are able to sell your
+              work through our organization, you will need to be assigned an artist ID number and password before sending in any data regarding the specifics
+              of any of your products.</p>
+        </section>
+
+        <section class="container">
+            <h3 class="text-center">Membership Form</h3>
+            <form name="newArtist" id="newArtist" action="http://itins3.madisoncollege.edu/echo.php" method="post" class="justify-content-center align-items-center">
+
+                <fieldset id="name" class="mt-4 col-md-6">
+                    <legend>Name</legend>
+
+                    <div class="form-group mt-2">
+                        <div>
+                            <label for="firstName">First Name<span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" class="form-control" name="firstName" id="firstName" maxlength="20" placeholder="20 characters max" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <div>
+                            <label for="lastName">Last Name<span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" class="form-control" name="lastName" id="lastName" maxlength="25" placeholder="25 characters max" required />
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset id="address" class="mt-4 col-md-6">
+                    <legend>Address</legend>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistAddress">Street Address<span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" class="form-control" name="artistAddress" id="artistAddress" maxlength="25" placeholder="Building #, Street, Apt. #" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistCity">City<span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" class="form-control" name="artistCity" id="artistCity" maxlength="20" placeholder="20 characters max" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistLocation">State/Province/Region<span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" class="form-control" name="artistLocation" id="artistLocation" maxlength="20" placeholder="Please Spell in Full" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistMailCode">ZIP/Mail Code<span class="required" aria-hidden="true">*</span></label>
+                            <input type="text" class="form-control" name="artistMailCode" id="artistMailCode" maxlength="15" placeholder="15 characters max" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistCountry">Country<span class="required" aria-hidden="true">*</span></label>
+                            <select name="artistCountry" id="artistCountry" aria-required="true" class="form-control" required>
+                                <option value="DPA">Choose Your Country</option>
+                                <option value="001">Australia</option>
+                                <option value="002">Canada</option>
+                                <option value="003">Cambodia</option>
+                                <option value="004">Czechia</option>
+                                <option value="005">Great Britain</option>
+                                <option value="006">India</option>
+                                <option value="007">Iran</option>
+                                <option value="008">Italy</option>
+                                <option value="009">Peru</option>
+                                <option value="010">United States of America</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset id="artistContactInformation" class="mt-4 col-md-6">
+                    <legend>Contact Information</legend>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistPhone">Phone Number</label>
+                            <input type="text" class="form-control" name="artistPhone" id="artistPhone" maxlength="15" placeholder="15 characters max" />
+                        </div>
+                    </div>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="artistEmail">Email</label>
+                            <input type="text" class="form-control" name="artistEmail" id="artistEmail" maxlength="40" placeholder="e.g. someone@somemail.com" />
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset id="professionalInfo" class="mt-4 col-md-10 text-center">
+                    <legend>Tell Us About Your Work</legend>
+
+                    <p>I Work With (Select All that Apply):</p>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="ceramic" id="ceramic" class="form-check-input" />
+                        <label for="ceramic" class="form-check-label">Ceramic</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="fabric" id="fabric" class="form-check-input" />
+                        <label for="fabric" class="form-check-label">Fabric</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="metal" id="metal" class="form-check-input" />
+                        <label for="metal" class="form-check-label">Metal</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="paint" id="paint" class="form-check-input" />
+                        <label for="paint" class="form-check-label">Paint</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="wood" id="wood" class="form-check-input" />
+                        <label for="wood" class="form-check-label">Wood</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="plastic" id="plastic" class="form-check-input" />
+                        <label for="plastic" class="form-check-label">Plastic</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="paper" id="paper" class="form-check-input" />
+                        <label for="paper" class="form-check-label">Paper</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="stone" id="stone" class="form-check-input" />
+                        <label for="stone" class="form-check-label">Stone</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="glass" id="glass" class="form-check-input" />
+                        <label for="glass" class="form-check-label">Glass</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" name="other" id="other" class="form-check-input" />
+                        <label for="other" class="form-check-label">Other</label>
+                    </div>
+
+                    <br /><br />
+
+                    <label id="discount" class="mt-4">Do You Offer Discounts for Quantity?</label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="quantityDiscount" value="01" id="yesDiscount" aria-describedby="discount" class="form-check-input" />
+                        <label for="yesDiscount" class="form-check-label">Yes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="quantityDiscount" value="02" id="noDiscount" aria-describedby="discount" class="form-check-input" />
+                        <label for="noDiscount" class="form-check-label">No</label>
+                    </div>
+
+                    <br /><br />
+
+                    <label id="alias" class="mt-4">Do You Work Under a Professional Name?</label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="professionalName" value="01" id="yesAlias" aria-describedby="alias" class="form-check-input" />
+                        <label for="yesAlias" class="form-check-label">Yes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="professionalName" value="02" id="noAlias" aria-describedby="alias" class="form-check-input" />
+                        <label for="noAlias" class="form-check-label">No</label>
+                    </div>
+
+                    <br /><br />
+
+                    <label id="exclusive" class="mt-4">Do You Agree to Sell Only Your Own Work?</label>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="ownWork" value="01" id="yesExclusive" aria-describedby="exclusive" class="form-check-input" />
+                        <label for="yesExclusive" class="form-check-label">Yes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="ownWork" value="02" id="noExclusive" aria-describedby="exclusive" class="form-check-input" />
+                        <label for="noExclusive" class="form-check-label">No</label>
+                    </div>
+                </fieldset>
+
+                <fieldset id="personalInfo" class="mt-4 col-md-6">
+                    <legend>Personal Information</legend>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="password">Create a Password<span class="required" aria-hidden="true">*</span></label>
+                            <input type="password" name="password" id="password" class="form-control" maxlength="15" placeholder="15 characters max" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group m-2">
+                        <div>
+                            <label for="reenterPassword">Re-Enter Your Password<span class="required" aria-hidden="true">*</span></label>
+                            <input type="password" name="reenterPassword" id="reenterPassword" class="form-control" maxlength="15" placeholder="15 characters max" required />
+                        </div>
+                    </div>
+                </fieldset>
+
+                    <fieldset id="artistBio" class="mt-4 col-md-6">
+                        <legend>Biography</legend>
+
+                        <div class="form-group m-2">
+                            <div>
+                                <label for="bioTextarea">Your Bio<span class="required" aria-hidden="true">*</span></label>
+                                <textarea name="artistBio" id="bioTextarea" class="form-control" maxlength="1000" required placeholder="Tell Us a Little About Yourself!"></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                <div id="controlButtons" class="mt-4 mb-4 text-center">
+                    <input type="submit" value="Submit" class="btn btn-info mr-2 ml-2 col-md-1" />
+                    <input type="reset" value="Clear" class="btn btn-secondary mr-2 ml-2 col-md-1" />
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <hr />
+
+    <footer class="text-center pt-4 pb-2">
+        <p>Arte Del Mundo&reg; 2019</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
