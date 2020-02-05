@@ -9,6 +9,6 @@ Here are the skills/technologies/processes that I used for each one:
 * couchPotatoFitness (PHP, SQL, HTML/CSS)
 * nightThinkerBlog (PHP, SQL, Bootstrap)
 * 100DaysOfPractice (PHP, SQL, Bootstrap)
-* arteDelMundoRedesign (HTML/CSS, Bootstrap, user research)
-* wiscoExploreRedesign (Wireframes/Mockups, user research)
+* arteDelMundoRedesign (HTML/CSS, Bootstrap, user research, color theory)
+* wiscoExploreRedesign (Wireframes/Mockups, user research, color theory)
 
