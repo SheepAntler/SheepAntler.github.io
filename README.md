@@ -1,8 +1,7 @@
 # SheepAntler.github.io
 
-Here you will find some of the work I've done in my studies at Madison College. 
-These projects represent the most complete work I have done--they all involve a bit of both front and back-end work.
-Here are the skills/technologies/processes that I used for each one: 
+Just a bit of the work I've done during my studies at Madison College! 
+Here are the skills/technologies/processes that I used for each project: 
 
 * ladyMondegreenSite (HTML/CSS, JavaScript)
 * madLibs (PHP, SQL, HTML/CSS)
