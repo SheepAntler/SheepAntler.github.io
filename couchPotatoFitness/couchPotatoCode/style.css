@@ -1,0 +1,312 @@
+body {
+    background-image: url(images/treeSofa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.signUp {
+    color: #6e7d4d; 
+    text-shadow: 1px 1px 1px #2f3326;
+    margin-top: 4em;
+    margin-bottom: -3em;
+    font-size: 2em;   
+}
+
+.error {
+    color: maroon; 
+    text-shadow: 1px 1px 1px #2f3326;
+    margin-top: 4em;
+    margin-bottom: -3em;
+    font-size: 2em;   
+}
+
+#profileError {
+    color: maroon; 
+    text-shadow: 1px 1px 1px #2f3326;
+    margin-top: 1em;
+    font-size: 1.4em;   
+}
+
+.info {
+    color: #6e7d4d; 
+    text-shadow: 1px 1px 1px #2f3326;
+    font-size: 1.5em;
+}
+
+.heading {
+    border-radius: 1em;
+    border: 3px ridge #2f3326; 
+    background-color: #6e7d4d; 
+    color: #ffb92e;
+    text-shadow: 1px 2px 3px black;
+    font-size: 2em;
+    width: 40%;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    text-decoration: none; 
+    color: #3c0d46;
+    text-shadow: 1px 1px 1px rgb(167, 118, 187);
+    transition-property: all;
+    transition-duration: .2s;
+    font-weight: bold;
+}
+
+a:hover, a:focus, .info a:hover, .info a:focus {
+    color: #6a2e77;
+}
+
+a:visited {
+    color: #1f0924;
+}
+
+header, footer {
+    background-color: #634834;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    margin-bottom: 3em;
+    color: #ffb92e;
+    font-size: 1.2em;
+    text-shadow: 1px 2px 3px black;
+} 
+
+.topNav {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+
+.topNav a:link, .topNav a:visited {
+    text-decoration: none; 
+    background-color: #6e7d4d; 
+    color: #ffb92e;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1em;
+    border: 3px ridge #2f3326; 
+    padding: .2em .4em;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+.topNav a:hover, .topNav a:focus {
+    box-shadow: 2px 3px 3px black;
+    color: #ffc400; 
+}
+
+.bottomNav {
+    margin-top: 28em;
+    margin-right: 20em;
+    margin-left: 14em;
+    background-color: #6e7d4d; 
+    color: #ffb92e;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1em;
+    border: 3px ridge #2f3326;
+    padding: .4em;
+    position: fixed;
+    font-size: 1.1em;
+}
+
+.bottomNav a:link {
+    text-decoration: none; 
+    color: #2c0444;
+    text-shadow: 1px 1px 1px rgb(167, 118, 187);
+    transition-property: all;
+    transition-duration: .2s;
+    font-weight: bold;
+}
+
+.bottomNav a:hover, .bottomNav a:focus {
+    color: #6a2e77;
+}
+
+hr {
+    border: 1px ridge #2f3326;
+}
+
+#loginForm, #signUpForm {
+    margin-top: 10em;
+}
+
+h1 {
+    font-size: 8em;
+    margin-bottom: 1em;
+}
+
+h2#subtitle {
+    margin-top: -4em;
+}
+
+div#logActivityButton {
+    margin-top: -4em;
+}
+
+div#logActivityButton a:link, div#logActivityButton a:visited {
+    text-decoration: none; 
+    background-color: #6e7d4d; 
+    color: #ffb92e;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1em;
+    border: 5px ridge #2f3326; 
+    padding: .2em .4em;
+    font-size: 3em;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+div#logActivityButton a:hover, div#logActivityButton a:focus {
+    box-shadow: 2px 3px 3px black;
+    color: #ffc400;    
+}
+
+input#submit {
+    text-decoration: none; 
+    background-color: #6e7d4d; 
+    color: #ffb92e;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1em;
+    border: 5px ridge #2f3326; 
+    padding: .2em .4em;
+    font-size: 1.1em;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+#submit:hover, #submit:focus {
+    box-shadow: 2px 3px 3px black;
+    color: #ffc400;    
+}
+
+.login {
+  font-style: italic;
+}
+
+#loginForm fieldset {
+    margin-top: 10em;
+}
+
+table {
+    margin-top: 2em;
+    font-size: 1.1em;
+    border-radius: 1em;
+    border: 3px ridge #2f3326; 
+    background-color: rgba(99, 72, 52, 0.9);
+    padding: 1em;
+}
+
+th, td.label {
+    color: #ffb92e;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px black;
+}
+
+td {
+    border-top: thin solid #6e7d4d; 
+    border-bottom: thin solid #6e7d4d;
+    border-left: 1px solid #6e7d4d;
+    border-right: 1px solid #6e7d4d;
+    color: #f0a046;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+#profileTable {
+    float: left;
+    clear: left, bottom;
+    width: 15%;
+    margin-left: 20em;
+}
+
+#exerciseTable {
+    float: right;
+    clear: right, bottom;
+    width: 45%;
+    margin-right: 18em;
+}
+
+table a {
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+form label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+legend {
+    background-color: #6e7d4d; 
+    color: #ffb92e;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1em;
+    border: 3px ridge #2f3326; 
+    padding: .2em .4em;
+    font-size: 1.4em;
+}
+
+fieldset {
+    border-radius: 1em;
+    border: 3px ridge #2f3326; 
+    background-color: rgba(99, 72, 52, 0.9);
+    padding: 1em;
+    max-width: 20%;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.4em;
+}
+
+label {
+    color: #ffb92e;
+    text-shadow: 1px 2px 2px black;
+}
+
+input, select {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .3em;
+    border-radius: .5em;
+    background-color: rgb(158, 171, 149);
+    border: 3px ridge #2f3326; 
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+input:hover, input:focus, select:hover, select:focus {
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(200, 204, 197); 
+}
+
+.confirm:hover, .confirm:focus {
+    box-shadow: none;
+}
+
+td.label {
+  font-weight: bold;
+}
+
+img.profile {
+  vertical-align: top;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffb92e;
+    text-shadow: 1px 2px 2px black;
+}
+
+
