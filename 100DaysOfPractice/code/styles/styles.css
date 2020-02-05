@@ -1,0 +1,186 @@
+body {
+    background-image: url(../images/violin-wallpaper-bw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+    font-family: 'PT Serif', serif;
+}
+
+nav {
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 6em;
+}
+
+.page-title {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 4em;
+    color: teal;
+}
+
+.secondary-title {
+    font-size: 3em;
+    color: teal;
+}
+
+.secondary-page-title {
+    font-size: 1.5em;
+}
+
+.counter {
+    font-size: 10em;
+    color: teal;
+}
+
+.index-head {
+    color: rgb(226, 226, 226);
+    background-color: rgba(71, 71, 73, 0.85);
+    margin-top: 15em;
+    border-radius: 5em;
+    text-shadow: 2px 3px 4px black;
+    box-shadow: 4px 5px 6px black;
+    border: 5px double black;
+}
+
+.index-head-logged {
+    margin-top: 10em;
+}
+
+.form-box {
+    color: rgb(226, 226, 226);
+    background-color: rgba(12, 29, 29, 0.85);
+    margin-top: 6em;
+    border-radius: 2em;
+    text-shadow: 2px 3px 4px black;
+    box-shadow: 4px 5px 6px black;
+    border: 5px double black;
+}
+
+legend {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: 3px 4px 5px black;
+}
+
+label {
+    font-size: 2em;
+}
+
+.error {
+    color: rgb(128, 17, 45);
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 1px 2px 3px black;
+    background-color: rgba(58, 65, 65, 0.85);
+    border-radius: 2em;
+}
+
+.info-container {
+    color: rgb(226, 226, 226);
+    background-color: rgba(12, 29, 29, 0.9);
+    margin-top: 1em;
+    border-radius: 2em;
+    text-shadow: 2px 3px 4px black;
+    box-shadow: 4px 5px 6px black;
+    border: 5px double black;
+    font-size: 2em;
+}
+
+.btn-black {
+    background-color: rgb(38, 37, 39);
+    transition-property: all;
+    transition-duration: .4s;
+    font-size: 1.5em;
+    border: 5px double black;
+}
+
+.btn-black:hover, .btn-black:focus {
+    background-color: black;
+    box-shadow: 2px 3px 4px grey;
+}
+
+.btn-teal {
+    background-color: rgb(9, 90, 104);
+    transition-property: all;
+    transition-duration: .4s;
+    font-size: 1.5em;
+    border: 5px double black;
+}
+
+.btn-teal:hover, .btn-teal:focus, .btn-teal-sm:hover, .btn-teal-sm:focus {
+    background-color: rgb(12, 145, 155);
+    box-shadow: 2px 3px 4px grey;
+}
+
+.btn-teal-sm {
+    background-color: rgb(9, 90, 104);
+    transition-property: all;
+    transition-duration: .4s;
+    font-size: 1em;
+    border: 5px double black;
+}
+
+.bg-header {
+    background-color: rgba(38, 37, 39, 0.8);
+    color: rgb(226, 226, 226);
+    text-shadow: 2px 3px 4px black;
+}
+
+.bg-content {
+    background-color: rgba(150, 148, 151, 0.9);
+    color: rgb(22, 19, 19);
+    text-shadow: 1px 2px 2px grey;
+    font-size: 1.4em;
+    border-radius: 2em;
+    border: 5px double black;
+}
+
+.content-header {
+    font-family: 'Bad Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 3px 3px grey;
+    text-decoration: underline;
+}
+
+.th {
+    font-family: 'Bad Script', cursive;
+    font-size: 1.4em;
+    color: teal;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px black;
+}
+
+.profile-table {
+    font-size: 2em;
+}
+
+.practice-table {
+    font-size: 1.5em;
+}
+
+.teacher-table {
+    font-size: 1.2em;
+}
+
+.table-banner {    
+    color: rgb(226, 226, 226);
+    font-family: 'Bad Script', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px black;
+}
+
+
+
