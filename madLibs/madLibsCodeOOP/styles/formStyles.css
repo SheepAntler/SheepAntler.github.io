@@ -1,0 +1,95 @@
+body {
+    background-image: url(../images/formBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family:"American Typewriter";
+    src: url("americanTypewriterFont.ttf") format("truetype");
+}
+
+.formBackground {
+    color: #b88100;
+    font-family: "American Typewriter", serif;
+    max-width: 100%;
+    text-shadow: 2px 2px 3px black;
+}
+
+.formBackground h1 {
+    font-size: 3em;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input {
+    background-color: #807365;
+    border: .2em ridge #633c05;
+    border-radius: .5em;
+    font-size: 1em;
+    padding: 0.3em;
+    margin: 1em;
+    transition-duration: .3s;
+    transition-property: all;
+}
+
+input:focus, input:hover {
+    background-color: #baab99;
+    box-shadow: 2px 3px 4px black;
+}
+
+p {
+    font-size: 2em;
+}
+
+.endButtons {
+    background-color: #b88100;
+    margin-bottom: 2em;
+}
+
+.endButtons:focus, .endButtons:hover {
+    background-color: #ffd500;
+}
+
+.homeButton {
+    background-color: #b88100;
+    border: .2em ridge #5c1515;
+    border-radius: .5em;
+    color: #3e155c;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 0.3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    transition-duration: .3s;
+    transition-property: all;
+}
+
+.homeButton:focus, .homeButton:hover {
+    background-color: #ffd500;
+    box-shadow: 2px 3px 4px black;
+}
+
+.postStoryButton {
+    background-color: #b88100;
+    border: .2em ridge #5c1515;
+    border-radius: .5em;
+    color: #3e155c;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 0.3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    transition-duration: .3s;
+    transition-property: all;  
+}
+
+.postStoryButton:focus, .postStoryButton:hover {
+    background-color: #ffd500;
+    box-shadow: 2px 3px 4px black;   
+}
