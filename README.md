@@ -11,3 +11,5 @@ Here are the skills/technologies/processes that I used for each project:
 * arteDelMundoRedesign (HTML/CSS, Bootstrap, user research, color theory)
 * wiscoExploreRedesign (Wireframes/Mockups, user research, color theory)
 
+In each folder, you will find screenshots of my various applications running/my site designs. 
+There are even video walkthroughs here and there! 
