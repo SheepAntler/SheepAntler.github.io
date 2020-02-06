@@ -1,7 +1,6 @@
 # SheepAntler.github.io
 
 Just a bit of the work I've done during my studies at Madison College! 
-Here are the skills/technologies/processes that I used for each project: 
 
 * [Lady Mondegreen and the Eggcorns band website](ladyMondegreenSite) (HTML/CSS, JavaScript)
   * Fictional site for a Medieval band
