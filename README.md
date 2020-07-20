@@ -14,11 +14,6 @@ Just a bit of the work I've done during my full-stack studies at Madison College
   * Combines Google Maps data with WeatherBit data to give users timeframe-tailored weather predictions along any travelling route in the United States
   * I was in charge of designing and building the UI, and with managing data I/O
 
-## Early HTML/CSS Work
-* [Lady Mondegreen and the Eggcorns band website](ladyMondegreenSite) (HTML/CSS, JavaScript)
-  * Fictional site for a Medieval band
-  * Final project for my first-ever web development class
-
 ## Full-stack PHP/MySQL Projects
 * [Mad Libs Game](madLibs) (PHP, SQL, HTML/CSS)
   * Classic Mad Libs game with three different stories to choose from
@@ -37,6 +32,11 @@ Just a bit of the work I've done during my full-stack studies at Madison College
   * A reworking of several webpages from the first website I ever built to make them accessible, and more attractive
 * [Wisco Explore! site redesign](wiscoExploreRedesign) (Wireframes/Mockups, user research, color theory/analysis)
   * A redesign/fleshing-out of another team's wireframes for a fictional camping site
+
+## Early HTML/CSS Work
+* [Lady Mondegreen and the Eggcorns band website](ladyMondegreenSite) (HTML/CSS, JavaScript)
+  * Fictional site for a Medieval band
+  * Final project for my first-ever web development class
 
 In each folder, you will find screenshots of my various applications running/my site designs. 
 There are even video walkthroughs here and there! 
